@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 550 550"
+   xml:space="preserve"
+   sodipodi:docname="bash.svg"
+   width="550"
+   height="550"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:i="&amp;ns_ai;"><defs
+   id="defs60" /><sodipodi:namedview
+   id="namedview58"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="0.4609375"
+   inkscape:cx="73.762712"
+   inkscape:cy="256"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="1912"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.Drop_x0020_Shadow{fill:none;}
+	.Round_x0020_Corners_x0020_2_x0020_pt{fill:#FFFFFF;stroke:#1B1B1F;stroke-miterlimit:10;}
+	.Live_x0020_Reflect_x0020_X{fill:none;}
+	.Bevel_x0020_Soft{fill:url(#SVGID_1_);}
+	.Dusk{fill:#FFFFFF;}
+	.Foliage_GS{fill:#FFDC00;}
+	.Pompadour_GS{fill-rule:evenodd;clip-rule:evenodd;fill:#58AEE2;}
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#283037;}
+	.st3{fill:#4DA825;}
+</style>
+<switch
+   id="switch55"
+   transform="translate(20,18)">
+	<foreignObject
+   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1">
+		
+	</foreignObject>
+	<g
+   i:extraneous="self"
+   id="g53">
+		<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="0"
+   y1="0"
+   x2="0.70709997"
+   y2="0.70709997">
+			<stop
+   offset="0"
+   style="stop-color:#E6E6EA"
+   id="stop4" />
+			<stop
+   offset="0.1719"
+   style="stop-color:#E2E2E6"
+   id="stop6" />
+			<stop
+   offset="0.3482"
+   style="stop-color:#D7D6DA"
+   id="stop8" />
+			<stop
+   offset="0.5264"
+   style="stop-color:#C4C2C5"
+   id="stop10" />
+			<stop
+   offset="0.7061"
+   style="stop-color:#A9A7A8"
+   id="stop12" />
+			<stop
+   offset="0.8852"
+   style="stop-color:#878484"
+   id="stop14" />
+			<stop
+   offset="1"
+   style="stop-color:#6D6968"
+   id="stop16" />
+		</linearGradient>
+		<g
+   id="g39">
+			<rect
+   x="0.30000001"
+   y="1.3"
+   class="st0"
+   width="512"
+   height="512"
+   id="rect19" />
+			<g
+   id="g37">
+				<g
+   id="g23">
+					<path
+   class="st1"
+   d="M 449.1,105.9 287.5,9.9 c -19.3,-11.5 -43.1,-11.5 -62.4,0 l -161.6,96 c -19.3,11.4 -31.2,32.6 -31.2,55.5 v 191.9 c 0,22.9 11.9,44.1 31.2,55.5 l 161.6,95.9 c 9.6,5.7 20.4,8.6 31.2,8.6 10.8,0 21.5,-2.9 31.2,-8.6 l 161.6,-95.9 c 19.3,-11.5 31.2,-32.6 31.2,-55.5 V 161.4 c 0,-22.9 -11.9,-44.1 -31.2,-55.5 z"
+   id="path21" />
+				</g>
+				<g
+   id="g27">
+					<path
+   class="st2"
+   d="M 449.1,105.9 287.5,9.9 c -9.6,-5.7 -20.4,-8.6 -31.2,-8.6 -10.8,0 -21.5,2.9 -31.2,8.6 l -161.6,96 c -19.3,11.4 -31.2,32.6 -31.2,55.5 v 191.9 c 0,22.9 11.9,44.1 31.2,55.5 l 161.6,95.9 c 9.6,5.7 20.4,8.6 31.2,8.6 10.8,0 21.5,-2.9 31.2,-8.6 l 161.6,-95.9 c 19.3,-11.5 31.2,-32.6 31.2,-55.5 V 161.4 c 0,-22.9 -11.9,-44.1 -31.2,-55.5 z M 230.8,494.9 69.2,399 C 53.4,389.6 43.6,372.1 43.6,353.3 V 161.4 c 0,-18.8 9.8,-36.3 25.6,-45.7 L 230.8,19.8 c 7.8,-4.6 16.6,-7 25.5,-7 8.9,0 17.8,2.4 25.5,7 l 161.6,95.9 c 13.3,7.9 22.3,21.6 24.8,37 -5.4,-11.4 -17.4,-14.6 -31.5,-6.3 l -152.9,94.5 c -19.1,11.1 -33.1,23.7 -33.1,46.6 v 188.4 c 0,13.8 5.5,22.7 14.1,25.3 -2.8,0.5 -5.6,0.8 -8.5,0.8 -8.9,-0.1 -17.8,-2.5 -25.5,-7.1 z"
+   id="path25" />
+				</g>
+				<g
+   id="g31">
+					<path
+   class="st3"
+   d="m 406.8,371.8 -40.3,24.1 c -1.1,0.6 -1.9,1.3 -1.9,2.6 V 409 c 0,1.3 0.9,1.8 1.9,1.2 l 40.9,-24.8 c 1.1,-0.6 1.2,-1.8 1.2,-3.1 V 373 c 0.1,-1.3 -0.8,-1.8 -1.8,-1.2 z"
+   id="path29" />
+				</g>
+				<g
+   id="g35">
+					<path
+   class="st1"
+   d="m 321.1,283.2 c 1.3,-0.7 2.4,0.2 2.4,1.9 l 0.1,13.9 c 5.8,-2.3 10.9,-2.9 15.5,-1.9 1,0.3 1.4,1.6 1,3.2 l -3.1,12.3 c -0.2,0.9 -0.8,1.9 -1.4,2.5 -0.3,0.3 -0.5,0.5 -0.8,0.6 -0.4,0.2 -0.8,0.3 -1.2,0.2 -2.1,-0.5 -7.1,-1.6 -14.9,2.4 -8.2,4.2 -11.1,11.3 -11,16.6 0.1,6.3 3.3,8.3 14.5,8.4 14.9,0.2 21.4,6.8 21.5,21.8 0.2,14.8 -7.7,30.6 -19.8,40.4 l 0.3,13.8 c 0,1.7 -1.1,3.6 -2.4,4.2 l -8.2,4.7 c -1.3,0.7 -2.4,-0.1 -2.4,-1.8 l -0.1,-13.6 c -7,2.9 -14.1,3.6 -18.6,1.8 -0.9,-0.3 -1.2,-1.6 -0.9,-3 l 3,-12.5 c 0.2,-1 0.8,-2 1.5,-2.6 0.3,-0.2 0.5,-0.4 0.8,-0.6 0.5,-0.2 0.9,-0.3 1.3,-0.1 4.9,1.6 11.1,0.9 17.1,-2.2 7.6,-3.9 12.7,-11.6 12.6,-19.4 -0.1,-7 -3.9,-9.9 -13.1,-10 -11.7,0 -22.7,-2.3 -22.9,-19.6 -0.1,-14.2 7.3,-29 19,-38.4 l -0.1,-13.9 c 0,-1.7 1,-3.6 2.4,-4.3 z"
+   id="path33" />
+				</g>
+			</g>
+		</g>
+		<g
+   id="g41">
+		</g>
+		<g
+   id="g43">
+		</g>
+		<g
+   id="g45">
+		</g>
+		<g
+   id="g47">
+		</g>
+		<g
+   id="g49">
+		</g>
+		<g
+   id="g51">
+		</g>
+	</g>
+</switch>
+
+</svg>

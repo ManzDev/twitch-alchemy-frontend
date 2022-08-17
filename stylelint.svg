@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="593.94135"
+   height="565.56549"
+   viewBox="0 0 593.94135 565.56549"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="stylelint.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>stylelint-icon-black</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1371"
+     inkscape:window-height="848"
+     id="namedview20"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1"
+     inkscape:cx="294.44135"
+     inkscape:cy="285.25149"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg18" />
+  <title
+     id="title2">stylelint-icon-black</title>
+  <g
+     transform="matrix(12.109637,0,0,12.109637,-11.540484,-2.2523925)"
+     id="g16"
+     style="fill:#000000;fill-rule:evenodd">
+    <path
+       d="m 25.81,46.77 c 5.364,-19.14 5.208,-19.227 9.086,-32.874 l 0.932,0.537 c 0.507,0.292 0.92,0.053 0.92,-0.53 V 7.397 c 1.03,-3.596 1.837,-6.374 2.073,-7.21 h 4.202 L 50,6.636 l -4.583,3.953 3.465,3.738 -22.84,32.44 c -0.112,0.184 -0.267,0.142 -0.232,0 z M 28.305,5.516 c 0.207,0 0.375,0.113 0.375,0.255 v 3.336 c 0,0.14 -0.168,0.255 -0.375,0.255 h -5.642 c -0.207,0 -0.375,-0.113 -0.375,-0.254 V 5.77 c 0,-0.14 0.168,-0.254 0.375,-0.254 z"
+       id="path4"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 35.27,1.823 -6.208,3.575 c 0.073,0.11 0.116,0.235 0.116,0.373 v 3.336 c 0,0.173 -0.067,0.33 -0.178,0.455 l 6.27,3.613 c 0.427,0.246 0.778,0.044 0.778,-0.448 V 2.27 c 0,-0.492 -0.35,-0.693 -0.778,-0.447 z M 21.79,9.106 V 5.77 c 0,-0.136 0.043,-0.262 0.114,-0.37 L 15.697,1.823 C 15.27,1.577 14.92,1.778 14.92,2.27 v 10.455 c 0,0.492 0.35,0.694 0.777,0.447 L 21.967,9.56 C 21.857,9.435 21.789,9.28 21.789,9.106 Z"
+       id="path6"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 24.91,46.77 h 0.232 C 19.779,27.63 19.934,27.543 16.057,13.896 l -0.933,0.537 c -0.506,0.292 -0.92,0.053 -0.92,-0.53 V 7.397 C 13.173,3.8 12.367,1.022 12.13,0.186 h -4.2 l -6.977,6.45 4.583,3.953 -3.465,3.738 22.84,32.44 z"
+       id="path8"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       cx="25.306"
+       cy="14.634"
+       rx="1.694"
+       ry="1.691"
+       id="ellipse10" />
+    <ellipse
+       cx="25.306"
+       cy="24.686001"
+       rx="1.694"
+       ry="1.691"
+       id="ellipse12" />
+    <ellipse
+       cx="25.306"
+       cy="34.738998"
+       rx="1.694"
+       ry="1.6900001"
+       id="ellipse14" />
+  </g>
+</svg>
