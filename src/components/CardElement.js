@@ -1,5 +1,7 @@
 import { craft } from "../modules/craft.js";
 
+const INDESTRUCTIBLE_ELEMENTS = ["html", "css", "javascript", "webcomponents"];
+
 class CardElement extends HTMLElement {
   constructor() {
     super();
@@ -54,7 +56,8 @@ class CardElement extends HTMLElement {
 
   connectedCallback() {
     this.type = this.getAttribute("type") || "html";
-    this.name = this.type[0].toUpperCase() + this.type.substring(1).toLowerCase();
+    this.name = this.type[0].toUpperCase() + this.type.substring(1).toLowerCase().replace("-", " ");
+    this.setAttribute("id", "e" + crypto.randomUUID());
     this.render();
     this.draggable = true;
     this.addEventListener("dragstart", (ev) => this.onDragStart(ev));
@@ -113,6 +116,16 @@ class CardElement extends HTMLElement {
     console.log("Has soltado el elemento", dragElement, " en ", dropElement);
 
     const results = craft(dragElement, dropElement);
+    const lastElement = document.querySelector("card-element:last-child");
+    const allElements = [...document.querySelectorAll("card-element")].map(element => element.type);
+    results.forEach(element => {
+      const type = element.getAttribute("type");
+      console.log(allElements, type);
+      !allElements.includes(type) && lastElement.insertAdjacentElement("afterend", element);
+    });
+
+    !INDESTRUCTIBLE_ELEMENTS.includes(dragElement.type) && dragElement.remove();
+    !INDESTRUCTIBLE_ELEMENTS.includes(dropElement.type) && dropElement.remove();
 
     ev.stopPropagation();
     return false;
