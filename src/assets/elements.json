@@ -1,0 +1,21 @@
+{
+  "elements": {
+    "0": "angular",
+    "1": "angularjs"
+  },
+  "recipes": {
+    "0": [["24", "84"], ["88", "71"]],
+    "1": ["24", "84"]
+  }
+}
+
+{
+  "angular": [["node", "typescript"]],
+  "jsx": [["html", "js"]]
+}
+
+
+{
+  "angular_jsx": ["node", "typescript"],
+  "jsx": ["html", "js"]
+}
