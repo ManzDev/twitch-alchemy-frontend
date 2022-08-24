@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill-rule="evenodd"
+   stroke-width="27"
+   aria-label="Logo"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="hugo.svg"
+   width="400"
+   height="400"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.60358056"
+     inkscape:cx="364.49153"
+     inkscape:cy="198.81356"
+     inkscape:window-width="1628"
+     inkscape:window-height="739"
+     inkscape:window-x="156"
+     inkscape:window-y="156"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <path
+     fill="#ff4088"
+     stroke="#c9177e"
+     d="m 225.81,24.13 114.41,66.54 a 44,44 0 0 1 21.88,38.04 v 136.43 a 48,48 0 0 1 -24.45,41.82 L 224.1,370.9 a 49,49 0 0 1 -48.48,-0.23 L 71.05,310.48 A 53,53 0 0 1 44.49,264.55 V 135.08 a 55,55 0 0 1 26.1,-46.8 l 102.8,-63.46 a 51,51 0 0 1 52.42,-0.69 z"
+     id="path8" />
+  <path
+     fill="#ffffff"
+     d="M 123.91,299.92 V 92.7 h 43.35 v 75.48 h 71.92 V 92.7 h 43.48 v 207.22 h -43.48 v -90.61 h -71.92 v 90.61 z"
+     id="path10"
+     sodipodi:nodetypes="ccccccccccccc" />
+</svg>
