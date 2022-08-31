@@ -1,21 +1,542 @@
 {
-  "elements": {
-    "0": "angular",
-    "1": "angularjs"
-  },
-  "recipes": {
-    "0": [["24", "84"], ["88", "71"]],
-    "1": ["24", "84"]
-  }
-}
-
-{
-  "angular": [["node", "typescript"]],
-  "jsx": [["html", "js"]]
-}
-
-
-{
-  "angular_jsx": ["node", "typescript"],
-  "jsx": ["html", "js"]
+  "adobe-flex": [["flash", "xml"]],
+  "meme-spiderman": [
+    [
+      "mariadb",
+      "mysql"
+    ],
+    [
+      "terminal",
+      "bash"
+    ]
+  ],
+  "ruby-on-rails": [
+    [
+      "ruby",
+      "terminal"
+    ]
+  ],
+  "sql-server": [
+    [
+      "microsoft",
+      "sql"
+    ]
+  ],
+  "styled-components": [
+    [
+      "css",
+      "jsx"
+    ]
+  ],
+  "actionscript": [
+    [
+      "javascript",
+      "flash"
+    ]
+  ],
+  "angular": [
+    [
+      "web-components",
+      "typescript"
+    ]
+  ],
+  "asp": [
+    [
+      "php",
+      "visual-basic"
+    ]
+  ],
+  "astro": [
+    [
+      "jsx",
+      "html"
+    ]
+  ],
+  "blade": [
+    [
+      "html",
+      "php"
+    ]
+  ],
+  "bootstrap": [
+    [
+      "css",
+      "css"
+    ]
+  ],
+  "brainfuck": [
+    [
+      "lisp",
+      "lisp"
+    ]
+  ],
+  "bsod": [
+    [
+      "microsoft",
+      "microsoft"
+    ]
+  ],
+  "bun": [
+    [
+      "zig",
+      "webkit"
+    ]
+  ],
+  "c++": [
+    [
+      "c",
+      "c"
+    ]
+  ],
+  "c-sharp": [
+    [
+      "c++",
+      "c++"
+    ],
+    [
+      "java",
+      "c"
+    ],
+    [
+      "java",
+      "java"
+    ]
+  ],
+  "carbon": [
+    [
+      "c++",
+      "rust"
+    ]
+  ],
+  "clojure": [
+    [
+      "lisp",
+      "java"
+    ],
+    [
+      "lisp",
+      "javascript"
+    ]
+  ],
+  "cobol": [
+    [
+      "asm",
+      "sql"
+    ]
+  ],
+  "codesandbox": [
+    [
+      "npm",
+      "git"
+    ]
+  ],
+  "coffeescript": [
+    [
+      "javascript",
+      "java"
+    ]
+  ],
+  "dart": [
+    [
+      "kotlin",
+      "javascript"
+    ]
+  ],
+  "deno": [
+    [
+      "typescript",
+      "javascript"
+    ],
+    [ "typescript", "node" ]
+  ],
+  "docker": [
+    [
+      "git",
+      "zip"
+    ]
+  ],
+  "edge": [
+    [
+      "explorer",
+      "chromium"
+    ],
+    [
+      "ie",
+      "chrome"
+    ]
+  ],
+  "electron": [
+    [
+      "javascript",
+      "chrome"
+    ],
+    [
+      "javascript",
+      "firefox"
+    ],
+    [
+      "javascript",
+      "edge"
+    ]
+  ],
+  "elixir": [
+    [
+      "ruby",
+      "erlang"
+    ]
+  ],
+  "flash": [
+    [
+      "svg",
+      "javascript"
+    ]
+  ],
+  "flask": [
+    [
+      "python",
+      "html"
+    ]
+  ],
+  "frontmatter": [
+    [
+      "markdown",
+      "yaml"
+    ]
+  ],
+  "go": [
+    [
+      "c++",
+      "javascript"
+    ]
+  ],
+  "graphql": [
+    [
+      "javascript",
+      "sql"
+    ]
+  ],
+  "handlebars": [
+    [
+      "javascript",
+      "mustache"
+    ]
+  ],
+  "html5": [
+    [
+      "html4",
+      "jquery"
+    ]
+  ],
+  "hugo": [
+    [
+      "go",
+      "markdown"
+    ]
+  ],
+  "ie": [
+    [
+      "babel",
+      "javascript"
+    ]
+  ],
+  "jekyll": [
+    [
+      "ruby",
+      "frontmatter"
+    ]
+  ],
+  "json": [
+    [
+      "javascript",
+      "vscode"
+    ]
+  ],
+  "jsx": [
+    [
+      "html",
+      "javascript"
+    ]
+  ],
+  "jupiter": [
+    [
+      "python",
+      "word"
+    ]
+  ],
+  "linq": [
+    [
+      "c#",
+      "sql"
+    ]
+  ],
+  "linux": [
+    [
+      "c#",
+      "mongodb"
+    ]
+  ],
+  "lit": [
+    [
+      "web-components",
+      "javascript"
+    ]
+  ],
+  "livewire": [
+    [
+      "php",
+      "javascript"
+    ]
+  ],
+  "lua": [
+    [
+      "bash",
+      "c++"
+    ]
+  ],
+  "mariadb": [
+    [
+      "sql",
+      "oracle"
+    ]
+  ],
+  "markdownlint": [
+    [
+      "markdown",
+      "eslint"
+    ]
+  ],
+  "mediawiki": [
+    [
+      "php",
+      "html"
+    ]
+  ],
+  "ml": [
+    [
+      "xml",
+      "yaml"
+    ]
+  ],
+  "mongodb": [
+    [
+      "json",
+      "node"
+    ]
+  ],
+  "nestjs": [
+    [
+      "angular",
+      "node"
+    ]
+  ],
+  "nextjs": [
+    [
+      "react",
+      "markdown"
+    ]
+  ],
+  "node": [
+    [
+      "deno",
+      "node_modules"
+    ]
+  ],
+  "nuxt": [
+    [
+      "vue",
+      "markdown"
+    ]
+  ],
+  "pnpm": [
+    [
+      "npm",
+      "npm"
+    ]
+  ],
+  "postcss": [
+    [
+      "autoprefixer",
+      "javascript"
+    ],
+    [
+      "css",
+      "javascript"
+    ]
+  ],
+  "preact": [
+    [
+      "jsx",
+      "javascript"
+    ]
+  ],
+  "pyscript": [
+    [
+      "python",
+      "html"
+    ]
+  ],
+  "qt": [
+    [
+      "c++",
+      "html"
+    ]
+  ],
+  "qwik": [
+    [
+      "astro",
+      "react"
+    ]
+  ],
+  "react": [
+    [
+      "php",
+      "javascript"
+    ],
+    [
+      "preact",
+      "javascript"
+    ],
+    [
+      "preact",
+      "webpack"
+    ],
+    [
+      "swiftui",
+      "swift"
+    ]
+  ],
+  "rust": [
+    [
+      "c++",
+      "haskell"
+    ]
+  ],
+  "sass": [
+    [
+      "css",
+      "less"
+    ]
+  ],
+  "solidjs": [
+    [
+      "react",
+      "rxjs"
+    ]
+  ],
+  "sql": [
+    [
+      "excel",
+      "json"
+    ],
+    [
+      "javascript",
+      "excel"
+    ],
+    [
+      "sqlite",
+      "sqlite"
+    ]
+  ],
+  "svelte": [
+    [
+      "javascript",
+      "jquery"
+    ]
+  ],
+  "sveltekit": [
+    [
+      "svelte",
+      "markdown"
+    ]
+  ],
+  "svg": [
+    [
+      "xml",
+      "css"
+    ]
+  ],
+  "tailwindcss": [
+    [
+      "bootstrap",
+      "sass"
+    ],
+    [
+      "html",
+      "css"
+    ]
+  ],
+  "tauri": [
+    [
+      "rust",
+      "node"
+    ]
+  ],
+  "typescript": [
+    [
+      "javascript",
+      "java"
+    ]
+  ],
+  "twig": [
+    [
+      "php",
+      "mustache"
+    ]
+  ],
+  "vim": [
+    [
+      "stackoverflow",
+      "terminal"
+    ],
+    [
+      "rollup",
+      "es2015"
+    ],
+    [
+      "rollup",
+      "esbuild"
+    ],
+    [
+      "webpack",
+      "es2015"
+    ]
+  ],
+  "vscode": [
+    [
+      "vim",
+      "eslint"
+    ]
+  ],
+  "vue": [
+    [
+      "angularjs",
+      "es2015"
+    ],
+    [
+      "html",
+      "web-components"
+    ]
+  ],
+  "wasm": [
+    [ "asm", "javascript" ],
+    [ "rust", "javascript" ]
+  ],
+  "wordpress": [
+    [
+      "php",
+      "sql"
+    ]
+  ],
+  "wsl": [
+    [
+      "microsoft",
+      "debian"
+    ]
+  ],
+  "zsh": [
+    [
+      "bash",
+      "bash"
+    ]
+  ]
 }

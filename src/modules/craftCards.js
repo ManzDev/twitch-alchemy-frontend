@@ -1,12 +1,14 @@
+import { elements } from "../assets/elements.js";
+
+const keys = Object.keys(elements);
+
 export const craftCards = (firstElement, secondElement) => {
-  const results = [];
+  const [first, second] = [firstElement, secondElement].sort();
 
-  const newElement = document.createElement("card-element");
-  newElement.setType("babel");
-  results.push(newElement);
+  const result = keys.find(key => {
+    const recipes = elements[key];
+    return recipes.some(([left, right]) => left === first && right === second);
+  });
 
-  console.log("Crafteo: ", firstElement.type, secondElement.type);
-  console.log("Result = ", results.map(el => el.type));
-
-  return results;
+  return result ? [result] : [];
 };
