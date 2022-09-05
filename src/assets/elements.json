@@ -8,6 +8,10 @@
     [
       "terminal",
       "bash"
+    ],
+    [
+      "terminal",
+      "zsh"
     ]
   ],
   "ruby-on-rails": [
@@ -124,6 +128,12 @@
       "sql"
     ]
   ],
+  "npm": [
+    [
+      "terminal",
+      "javascript"
+    ]
+  ],
   "codesandbox": [
     [
       "npm",
@@ -147,7 +157,10 @@
       "typescript",
       "javascript"
     ],
-    [ "typescript", "node" ]
+    [
+      "typescript",
+      "nodejs"
+    ]
   ],
   "docker": [
     [
@@ -161,7 +174,7 @@
       "chromium"
     ],
     [
-      "ie",
+      "internet-explorer",
       "chrome"
     ]
   ],
@@ -221,19 +234,14 @@
       "mustache"
     ]
   ],
-  "html5": [
-    [
-      "html4",
-      "jquery"
-    ]
-  ],
+
   "hugo": [
     [
       "go",
       "markdown"
     ]
   ],
-  "ie": [
+  "internet-explorer": [
     [
       "babel",
       "javascript"
@@ -265,25 +273,19 @@
   ],
   "linq": [
     [
-      "c#",
+      "c-sharp",
       "sql"
     ]
   ],
   "linux": [
     [
-      "c#",
+      "c-sharp",
       "mongodb"
     ]
   ],
   "lit": [
     [
       "web-components",
-      "javascript"
-    ]
-  ],
-  "livewire": [
-    [
-      "php",
       "javascript"
     ]
   ],
@@ -311,22 +313,16 @@
       "html"
     ]
   ],
-  "ml": [
-    [
-      "xml",
-      "yaml"
-    ]
-  ],
   "mongodb": [
     [
       "json",
-      "node"
+      "nodejs"
     ]
   ],
   "nestjs": [
     [
       "angular",
-      "node"
+      "nodejs"
     ]
   ],
   "nextjs": [
@@ -335,10 +331,14 @@
       "markdown"
     ]
   ],
-  "node": [
+  "nodejs": [
     [
       "deno",
-      "node_modules"
+      "node-modules"
+    ],
+    [
+      "npm",
+      "javascript"
     ]
   ],
   "nuxt": [
@@ -399,10 +399,6 @@
     [
       "preact",
       "webpack"
-    ],
-    [
-      "swiftui",
-      "swift"
     ]
   ],
   "rust": [
@@ -443,7 +439,7 @@
       "jquery"
     ]
   ],
-  "sveltekit": [
+  "svelte-kit": [
     [
       "svelte",
       "markdown"
@@ -468,13 +464,17 @@
   "tauri": [
     [
       "rust",
-      "node"
+      "nodejs"
     ]
   ],
   "typescript": [
     [
       "javascript",
       "java"
+    ],
+    [
+      "javascript",
+      "c-sharp"
     ]
   ],
   "twig": [
@@ -485,7 +485,7 @@
   ],
   "vim": [
     [
-      "stackoverflow",
+      "stack-overflow",
       "terminal"
     ],
     [
@@ -537,6 +537,12 @@
     [
       "bash",
       "bash"
+    ]
+  ],
+  "bash": [
+    [
+      "terminal",
+      "terminal"
     ]
   ]
 }
