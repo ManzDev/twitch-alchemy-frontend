@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="450"
+   height="450"
+   viewBox="0 0 450 450"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="haskell.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs19" />
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="87.864407"
+     inkscape:cy="128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">haskell</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="matrix(1.1663138,0,0,1.1663138,17.355932,79.186441)">
+    <g
+       id="haskell">
+      <polygon
+         id="Path"
+         fill="#453a62"
+         points="0,0 63.257592,0 147.60105,127.91455 63.257592,255.82564 0,255.82564 84.343456,127.91455 " />
+      <polygon
+         id="polygon7"
+         fill="#5e5086"
+         points="85.216068,255.82564 169.55952,127.91455 85.216068,0 148.47366,0 317.15375,255.82564 253.90298,255.82564 201.19173,175.88293 148.47025,255.82564 " />
+      <polygon
+         id="polygon9"
+         fill="#8f4e8b"
+         points="358.72556,179.01415 288.43935,179.01415 288.43935,179.01071 260.32486,136.37022 358.72556,136.37022 " />
+      <polygon
+         id="polygon11"
+         fill="#8f4e8b"
+         points="246.26762,115.0586 218.15313,72.418124 358.72556,72.418124 358.72556,115.0586 " />
+    </g>
+  </g>
+  <metadata
+     id="metadata144">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>haskell</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
