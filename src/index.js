@@ -1,8 +1,10 @@
 import "./components/CardElement.js";
+import "./components/ScoreBoard.js";
 import { elements, allElements as allImageElements } from "./modules/readFiles.js";
 import resultElements from "./assets/elements.json";
 
 const container = document.querySelector(".container");
+const scoreBoard = document.querySelector("score-board");
 
 elements.forEach(name => {
   const element = document.createElement("card-element");
@@ -10,11 +12,11 @@ elements.forEach(name => {
   container.appendChild(element);
 });
 
-// Test
-
 const resultCrafteableElements = Object.keys(resultElements).sort();
 const allCrafteableElements = [...new Set(Object.entries(resultElements).flat(Infinity))];
-// console.log(allImageElements);
+
+scoreBoard.setElements(elements.length);
+scoreBoard.setTotal(allCrafteableElements.length);
 
 const checkAllElements = () => {
   allCrafteableElements.forEach(element => {
@@ -44,7 +46,8 @@ const checkAllCombinations = (currentElements) => {
     i++;
   }
 
-  console.log(currentElements);
+  scoreBoard.setTotal(currentElements.length);
+  return currentElements;
 };
 
 window.findCombination = (elements) => {
@@ -66,4 +69,13 @@ window.findCombination = (elements) => {
 
 const initialElements = structuredClone(elements);
 checkAllElements();
-checkAllCombinations(initialElements);
+const crafteable = checkAllCombinations(initialElements);
+
+const notCrafteable = allImageElements.filter(key => !crafteable.includes(key));
+
+const sortedCrafteable = crafteable.sort();
+console.log("Crafteable: ", sortedCrafteable.slice(0, 100), sortedCrafteable.slice(100));
+console.log("No crafteable: ", notCrafteable.sort());
+
+window.noCrafteable = notCrafteable;
+window.crafteable = crafteable;

@@ -12,8 +12,8 @@ export class CardElement extends HTMLElement {
   static get styles() {
     return /* css */`
       :host {
-        width: 120px;
-        height: 180px;
+        width: var(--size, 120px);
+        height: calc(var(--size, 120px) * 1.6);
         font-weight: bold;
         text-align: center;
         border: 4px solid white;

@@ -7,11 +7,31 @@
     ],
     [
       "terminal",
-      "bash"
-    ],
+      "zsh"
+    ]
+  ],
+  "mysql": [
+    [
+      "mariadb",
+      "oracle"
+    ]
+  ],
+  "notepad": [
+    [
+      "microsoft",
+      "markdown"
+    ]
+  ],
+  "oracle": [
+    [
+      "java",
+      "sql"
+    ]
+  ],
+  "msdos": [
     [
       "terminal",
-      "zsh"
+      "microsoft"
     ]
   ],
   "ruby-on-rails": [
@@ -40,14 +60,52 @@
   ],
   "angular": [
     [
-      "web-components",
-      "typescript"
+      "typescript",
+      "google"
+    ],
+    [
+      "rxjs",
+      "javascript"
+    ]
+  ],
+  "google": [
+    [
+      "c",
+      "go"
+    ]
+  ],
+  "firebase": [
+    [
+      "google",
+      "sql"
+    ],
+    [
+      "google",
+      "mongodb"
+    ]
+  ],
+  "sublime-text": [
+    [
+      "python",
+      "c++"
     ]
   ],
   "asp": [
     [
       "php",
       "visual-basic"
+    ]
+  ],
+  "qbasic": [
+    [
+      "terminal",
+      "msdos"
+    ]
+  ],
+  "visual-basic": [
+    [
+      "qbasic",
+      "c-sharp"
     ]
   ],
   "astro": [
@@ -62,6 +120,12 @@
       "php"
     ]
   ],
+  "c": [
+    [
+      "terminal",
+      "bash"
+    ]
+  ],
   "bootstrap": [
     [
       "css",
@@ -74,16 +138,32 @@
       "lisp"
     ]
   ],
+  "microsoft": [
+    [
+      "internet-explorer",
+      "internet-explorer"
+    ]
+  ],
   "bsod": [
     [
       "microsoft",
       "microsoft"
     ]
   ],
+  "zig": [
+    [
+      "asm",
+      "c++"
+    ]
+  ],
   "bun": [
     [
       "zig",
       "webkit"
+    ],
+    [
+      "zig",
+      "javascript"
     ]
   ],
   "c++": [
@@ -92,18 +172,22 @@
       "c"
     ]
   ],
+  "java": [
+    [
+      "terminal",
+      "internet-explorer"
+    ]
+  ],
+  "dotnet": [
+    [
+      "java",
+      "c++"
+    ]
+  ],
   "c-sharp": [
     [
       "c++",
       "c++"
-    ],
-    [
-      "java",
-      "c"
-    ],
-    [
-      "java",
-      "java"
     ]
   ],
   "carbon": [
@@ -134,6 +218,12 @@
       "javascript"
     ]
   ],
+  "safari": [
+    [
+      "internet-explorer",
+      "apple"
+    ]
+  ],
   "codesandbox": [
     [
       "npm",
@@ -143,6 +233,12 @@
   "coffeescript": [
     [
       "javascript",
+      "java"
+    ]
+  ],
+  "kotlin": [
+    [
+      "java",
       "java"
     ]
   ],
@@ -162,20 +258,128 @@
       "nodejs"
     ]
   ],
+  "github": [
+    [
+      "git",
+      "git"
+    ],
+    [
+      "git",
+      "microsoft"
+    ]
+  ],
+  "ios": [
+    [
+      "swift",
+      "apple"
+    ]
+  ],
+  "pug": [
+    [
+      "nodejs",
+      "html"
+    ]
+  ],
+  "gatsby": [
+    [
+      "javascript",
+      "react"
+    ]
+  ],
+  "stack-overflow": [
+    [
+      "node-modules",
+      "node-modules"
+    ]
+  ],
   "docker": [
     [
       "git",
       "zip"
+    ],
+    [
+      "terminal",
+      "jpeg"
+    ],
+    [
+      "linux",
+      "zip"
+    ]
+  ],
+  "chrome": [
+    [
+      "chromium",
+      "google"
+    ],
+    [
+      "internet-explorer",
+      "google"
+    ]
+  ],
+  "bower": [
+    [
+      "npm",
+      "internet-explorer"
+    ]
+  ],
+  "autoprefixer": [
+    [
+      "postcss",
+      "css"
+    ]
+  ],
+  "stylelint": [
+    [
+      "css",
+      "eslint"
     ]
   ],
   "edge": [
     [
-      "explorer",
+      "internet-explorer",
       "chromium"
     ],
     [
       "internet-explorer",
       "chrome"
+    ],
+    [
+      "microsoft",
+      "chromium"
+    ],
+    [
+      "microsoft",
+      "chrome"
+    ]
+  ],
+  "webkit": [
+    [
+      "apple",
+      "google"
+    ]
+  ],
+  "apple": [
+    [
+      "swift",
+      "c-sharp"
+    ]
+  ],
+  "chromium": [
+    [
+      "google",
+      "webkit"
+    ]
+  ],
+  "firefox": [
+    [
+      "rust",
+      "css"
+    ]
+  ],
+  "eleventy": [
+    [
+      "markdown",
+      "javascript"
     ]
   ],
   "electron": [
@@ -210,10 +414,54 @@
       "html"
     ]
   ],
+  "yaml": [
+    [
+      "python",
+      "json"
+    ]
+  ],
+  "markdown": [
+    [
+      "html",
+      "word"
+    ]
+  ],
+  "word": [
+    [
+      "microsoft",
+      "notepad"
+    ],
+    [
+      "xml",
+      "microsoft"
+    ]
+  ],
+  "notepad++": [
+    [
+      "notepad",
+      "c++"
+    ],
+    [
+      "notepad",
+      "notepad"
+    ]
+  ],
   "frontmatter": [
     [
       "markdown",
       "yaml"
+    ]
+  ],
+  "objective-c": [
+    [
+      "c",
+      "java"
+    ]
+  ],
+  "swift": [
+    [
+      "objective-c",
+      "c"
     ]
   ],
   "go": [
@@ -234,17 +482,46 @@
       "mustache"
     ]
   ],
-
+  "babel": [
+    [
+      "javascript",
+      "javascript"
+    ]
+  ],
+  "es2015": [
+    [
+      "babel",
+      "javascript"
+    ]
+  ],
   "hugo": [
     [
       "go",
       "markdown"
     ]
   ],
+  "jquery": [
+    [
+      "internet-explorer",
+      "javascript"
+    ]
+  ],
   "internet-explorer": [
     [
       "babel",
       "javascript"
+    ]
+  ],
+  "html4": [
+    [
+      "html",
+      "internet-explorer"
+    ]
+  ],
+  "pandas": [
+    [
+      "python",
+      "excel"
     ]
   ],
   "jekyll": [
@@ -255,8 +532,8 @@
   ],
   "json": [
     [
-      "javascript",
-      "vscode"
+      "xml",
+      "javascript"
     ]
   ],
   "jsx": [
@@ -277,16 +554,70 @@
       "sql"
     ]
   ],
+  "android": [
+    [
+      "linux",
+      "java"
+    ]
+  ],
+  "mspaint": [
+    [
+      "microsoft",
+      "jpeg"
+    ]
+  ],
+  "bmp": [
+    [
+      "microsoft",
+      "mspaint"
+    ]
+  ],
+  "yahoo": [
+    [
+      "bing",
+      "bing"
+    ]
+  ],
+  "jpeg": [
+    [
+      "bmp",
+      "zip"
+    ]
+  ],
+  "ionic": [
+    [
+      "angular",
+      "android"
+    ],
+    [
+      "angular",
+      "ios"
+    ]
+  ],
+  "debian": [
+    [
+      "linux",
+      "terminal"
+    ]
+  ],
   "linux": [
     [
-      "c-sharp",
-      "mongodb"
+      "unix",
+      "gnome"
+    ],
+    [
+      "c",
+      "terminal"
     ]
   ],
   "lit": [
     [
       "web-components",
       "javascript"
+    ],
+    [
+      "web-components",
+      "typescript"
     ]
   ],
   "lua": [
@@ -298,10 +629,36 @@
   "mariadb": [
     [
       "sql",
-      "oracle"
+      "c++"
     ]
   ],
-  "markdownlint": [
+  "esbuild": [
+    [
+      "go",
+      "javascript"
+    ],
+    [
+      "go",
+      "webpack"
+    ]
+  ],
+  "2pac": [
+    [
+      "webpack",
+      "webpack"
+    ]
+  ],
+  "webpack": [
+    [
+      "nodejs",
+      "terminal"
+    ],
+    [
+      "gulp",
+      "nodejs"
+    ]
+  ],
+  "markdown-lint": [
     [
       "markdown",
       "eslint"
@@ -317,6 +674,34 @@
     [
       "json",
       "nodejs"
+    ],
+    [
+      "json",
+      "sql"
+    ]
+  ],
+  "gulp": [
+    [
+      "babel",
+      "terminal"
+    ]
+  ],
+  "grunt": [
+    [
+      "gulp",
+      "internet-explorer"
+    ]
+  ],
+  "mdx": [
+    [
+      "web-components",
+      "markdown"
+    ]
+  ],
+  "storybook": [
+    [
+      "web-components",
+      "mdx"
     ]
   ],
   "nestjs": [
@@ -329,6 +714,16 @@
     [
       "react",
       "markdown"
+    ],
+    [
+      "react",
+      "nodejs"
+    ]
+  ],
+  "node-modules": [
+    [
+      "nodejs",
+      "npm"
     ]
   ],
   "nodejs": [
@@ -401,6 +796,12 @@
       "webpack"
     ]
   ],
+  "haskell": [
+    [
+      "javascript",
+      "c"
+    ]
+  ],
   "rust": [
     [
       "c++",
@@ -411,12 +812,22 @@
     [
       "css",
       "less"
+    ],
+    [
+      "css",
+      "typescript"
     ]
   ],
   "solidjs": [
     [
       "react",
-      "rxjs"
+      "vue"
+    ]
+  ],
+  "excel": [
+    [
+      "python",
+      "microsoft"
     ]
   ],
   "sql": [
@@ -433,6 +844,12 @@
       "sqlite"
     ]
   ],
+  "sqlite": [
+    [
+      "sql",
+      "c"
+    ]
+  ],
   "svelte": [
     [
       "javascript",
@@ -443,6 +860,12 @@
     [
       "svelte",
       "markdown"
+    ]
+  ],
+  "xml": [
+    [
+      "html",
+      "html"
     ]
   ],
   "svg": [
@@ -475,6 +898,34 @@
     [
       "javascript",
       "c-sharp"
+    ],
+    [
+      "javascript",
+      "microsoft"
+    ]
+  ],
+  "python": [
+    [
+      "javascript",
+      "bash"
+    ]
+  ],
+  "perl": [
+    [
+      "bash",
+      "c"
+    ]
+  ],
+  "php": [
+    [
+      "terminal",
+      "perl"
+    ]
+  ],
+  "bing": [
+    [
+      "microsoft",
+      "google"
     ]
   ],
   "twig": [
@@ -483,28 +934,76 @@
       "mustache"
     ]
   ],
+  "eslint": [
+    [
+      "javascript",
+      "es2015"
+    ]
+  ],
+  "rollup": [
+    [
+      "gulp",
+      "es2015"
+    ]
+  ],
+  "vite": [
+    [
+      "rollup",
+      "javascript"
+    ]
+  ],
+  "vi": [
+    [
+      "terminal",
+      "word"
+    ]
+  ],
+  "ruby": [
+    [
+      "lua",
+      "c"
+    ]
+  ],
   "vim": [
     [
-      "stack-overflow",
-      "terminal"
-    ],
+      "vi",
+      "lua"
+    ]
+  ],
+  "manzdev": [
     [
-      "rollup",
-      "es2015"
-    ],
-    [
-      "rollup",
-      "esbuild"
-    ],
-    [
-      "webpack",
-      "es2015"
+      "css",
+      "web-components"
     ]
   ],
   "vscode": [
     [
       "vim",
       "eslint"
+    ],
+    [
+      "electron",
+      "typescript"
+    ],
+    [
+      "javascript",
+      "github"
+    ],
+    [
+      "microsoft",
+      "electron"
+    ]
+  ],
+  "neovim": [
+    [
+      "vim",
+      "vim"
+    ]
+  ],
+  "angularjs": [
+    [
+      "google",
+      "javascript"
     ]
   ],
   "vue": [
