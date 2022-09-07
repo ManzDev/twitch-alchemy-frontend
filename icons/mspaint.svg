@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="4096" height="4096" viewBox="0 0 4096 4096" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(255,255,255,0)"/>
+<g transform="matrix(6.1623 0 0 6.1623 2048.0094 2048.0099)" id="177627">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 -0.0004 -14.5205)" id="468298">
+<linearGradient id="SVGID_14" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.7795 0 0 3.7795 -601.2903 -296.4701)" x1="198.04672" y1="93.277061" x2="309.49811" y2="236.8008">
+<stop offset="0%" style="stop-color:rgb(58,200,243);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(27,157,227);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_14); fill-rule: nonzero; opacity: 1;" transform=" translate(-313.6506, -317.8246)" d="M 371.125 0.009765625 C 310.53187 0.45132285 241.55744 15.667119 183.09375 53.042969 C 105.14216 102.87744 45.882386 192.10557 19.28125 263.99609 C -7.3198864 335.88661 -1.2601241 390.43565 7.2421875 430.8418 C 15.744499 471.24795 26.687683 497.51113 39.0625 513 C 51.437317 528.48887 65.243379 533.20163 79.132812 533.11719 C 93.022246 533.03275 106.99495 528.15028 123.57812 515.52344 C 140.1613 502.89659 159.35355 482.52635 175.26367 466.19531 C 191.17379 449.86428 203.80118 437.5749 214.32422 431.42969 C 224.84726 425.28448 233.26451 425.28423 242.10352 428.0625 C 250.94252 430.84077 260.20179 436.3962 266.76758 443.13086 C 273.33336 449.86552 277.20657 457.77827 278.38477 466.70117 C 279.56296 475.62407 278.04749 485.55608 271.81836 494.39453 C 265.58922 503.23298 254.64676 510.97814 245.38672 525.28906 C 236.12668 539.59999 228.54895 560.47578 232.50586 580.00586 C 236.46277 599.53594 251.95254 617.71868 268.95703 627.98828 C 285.96152 638.25788 304.47966 640.61492 356.33398 619.73828 C 408.18831 598.86165 493.37734 554.75213 547.75781 490.60742 C 602.13829 426.46271 625.7069 342.28508 627.22266 270.90039 C 628.73841 199.5157 608.20013 140.92755 575.70703 94.964844 C 543.21393 49.002134 498.76749 15.667948 428.22461 4.21875 C 410.58889 1.3564504 391.32271 -0.13742012 371.125 0.009765625 z M 342.90625 315.36914 A 42.594088 42.594088 0 0 1 385.5 357.96289 A 42.594088 42.594088 0 0 1 342.90625 400.55859 A 42.594088 42.594088 0 0 1 300.3125 357.96289 A 42.594088 42.594088 0 0 1 342.90625 315.36914 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 187.5232 45.3047)" id="476491">
+<path style="stroke: none; stroke-width: 0.2646; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(128,128,128); fill-rule: nonzero; opacity: 1;" transform=" translate(-289.5557, -178.3612)" d="m 273.18694 128.03818 c -2.37244 0 -4.28191 1.91001 -4.28191 4.28242 c 0 0.34907 0.0454 0.68635 0.12351 1.01079 c 3.39492 7.50647 7.92401 14.92375 11.42824 21.25659 h 18.34978 l 10.31927 -19.27583 c 0.56129 -0.97587 1.06508 -2.05893 1.08056 -2.99155 c 0 -2.37241 -1.90999 -4.28242 -4.28243 -4.28242 z m 7.26984 26.55032 v 9.06094 c -0.003 0.0713 -0.004 0.14269 -0.001 0.21446 l 0.001 0.0269 v 2.41484 h 0.0925 l 2.38642 62.37862 c 4.69604 -3.01908 9.38317 -6.41238 13.77642 -10.16785 l 1.99057 -52.21077 h 0.10387 v -11.71711 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 187.7965 147.4203)" id="602956">
+<linearGradient id="SVGID_15" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)" x1="1179.8582" y1="633.36566" x2="1089.9546" y2="935.40125">
+<stop offset="0%" style="stop-color:rgb(120,64,10);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(154,86,5);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1.5765; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_15); fill-rule: nonzero; opacity: 1;" transform=" translate(-1094.6567, -776.2354)" d="m 1106.7937 591.31055 c -12.4969 0 -47.3957 12.50642 -46.8022 28.01757 l 12.1218 316.84296 c 0.5934 15.51116 10.0617 24.98908 22.5586 24.98908 c 12.4968 0 21.9653 -9.47784 22.5566 -24.98908 l 12.0772 -316.79832 c 0.5913 -15.51123 -10.0152 -28.06221 -22.512 -28.06221 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 187.811 -22.4024)" id="956591">
+<linearGradient id="SVGID_16" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -289.6318 -160.4467)" x1="279.83121" y1="168.91434" x2="303.61819" y2="154.48178">
+<stop offset="0%" style="stop-color:rgb(236,236,236);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(147,150,160);stop-opacity: 1"/>
+</linearGradient>
+<rect style="stroke: none; stroke-width: 0.4225; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_16); fill-rule: nonzero; opacity: 1;" x="-9.17485" y="-5.85865" rx="0" ry="0" width="18.3497" height="11.7173"/>
+</g>
+		<g transform="matrix(1 0 0 1 187.5237 -94.7184)" id="787345">
+<linearGradient id="SVGID_17" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)" x1="1053.5891" y1="481.84277" x2="1154.6044" y2="582.85803">
+<stop offset="0%" style="stop-color:rgb(240,214,159);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(195,147,96);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 2.1134; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_17); fill-rule: nonzero; opacity: 1;" transform=" translate(-1094.3838, -534.0967)" d="m 1032.5176 483.92383 c -8.9667 0 -16.1836 7.2189 -16.1836 16.18555 c 0 1.31932 0.1717 2.5941 0.4668 3.82031 c 12.8312 28.37087 29.949 56.40471 43.1933 80.33984 h 69.3536 l 39.0036 -72.8548 c 2.1214 -3.68834 4.0238 -7.78051 4.0823 -11.30535 c 0 -8.96665 -7.2189 -16.18555 -16.1856 -16.18555 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 -219.0139 1.1844)" id="755565">
+<circle style="stroke: none; stroke-width: 0.6499; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(128,128,128); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="15.096695"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 -219.2409 -2.7914)" id="424277">
+<linearGradient id="SVGID_18" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -185.2428 -165.6356)" x1="172.12158" y1="151.27455" x2="200.18488" y2="179.33784">
+<stop offset="0%" style="stop-color:rgb(219,83,23);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(194,56,7);stop-opacity: 1"/>
+</linearGradient>
+<circle style="stroke: none; stroke-width: 0.6499; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_18); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="15.096695"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 -146.1568 -142.7441)" id="476830">
+<circle style="stroke: none; stroke-width: 0.6499; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(128,128,128); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="15.096695"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 -146.3838 -146.72)" id="44559">
+<linearGradient id="SVGID_19" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -204.5196 -127.5545)" x1="193.7704" y1="110.11504" x2="216.75558" y2="138.17834">
+<stop offset="0%" style="stop-color:rgb(79,180,18);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(24,131,19);stop-opacity: 1"/>
+</linearGradient>
+<circle style="stroke: none; stroke-width: 0.6499; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_19); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="15.096695"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 10.9861 -202.0299)" id="976140">
+<circle style="stroke: none; stroke-width: 0.6499; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(102,102,102); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="15.096695"/>
+</g>
+		<g transform="matrix(3.7795 0 0 3.7795 10.7591 -206.0057)" id="648186">
+<linearGradient id="SVGID_20" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -246.0969 -111.8684)" x1="235.19719" y1="102.89877" x2="260.5878" y2="125.61668">
+<stop offset="0%" style="stop-color:rgb(253,221,1);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(247,168,16);stop-opacity: 1"/>
+</linearGradient>
+<circle style="stroke: none; stroke-width: 0.6499; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_20); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="15.096695"/>
+</g>
+</g>
+</g>
+</svg>

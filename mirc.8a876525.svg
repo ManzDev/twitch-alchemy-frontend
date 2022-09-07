@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512pt"
+   height="512pt"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="mirc.svg"
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25"
+     inkscape:cx="396"
+     inkscape:cy="-124"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     inkscape:window-width="1152"
+     inkscape:window-height="817"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>mIRC logo</dc:title>
+        <dc:date>November 3rd, 2005</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lucas V. Barbosa (SVG version)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Khaled Mardam-Bey (original)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>mIRC</rdf:li>
+            <rdf:li>logo</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>IRC client</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>SVG version of mIRC icon for Wikipedia
+http://en.wikipedia.org/</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#043292;fill-opacity:1;stroke:#000000;stroke-width:15.4741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 95.867797,52.676115 V 348.13431 H 226.59152 V 190.00856 c 5.15455,-2.56953 13.38447,-4.85157 28.36915,-4.35208 25.79014,0.85967 22.24398,14.50695 22.24399,14.50695 V 349.74619 H 408.73433 V 185.65648 c 4.7751,-0.84655 10.52987,-1.38447 18.21428,-1.12832 25.79013,0.85967 22.244,14.66814 22.24398,14.66814 V 348.77906 H 580.72226 V 175.98518 c 0,0 6.65896,-106.427423 -87.68644,-121.213617 -85.07841,-13.333835 -103.16051,40.297075 -103.16053,40.29708 v 5.158027 C 377.18726,79.583371 356.11126,61.233972 321.04788,55.738693 263.48408,46.717063 237.96615,68.011309 226.59152,82.979519 V 52.676115 Z"
+       id="rect2123" />
+    <g
+       id="g2878"
+       transform="matrix(5.1580263,0,0,5.1580263,238.50806,0.03707996)">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         id="path2869"
+         d="m 76.19815,113.33584 c -6.55781,9.12445 -18.5803,14.10967 -29.631522,11.49633 C 34.531767,122.26226 25.264435,111.56359 23.137467,99.627108 20.508191,86.76195 25.885319,72.374618 37.051816,65.184937 c 9.245036,-6.213415 22.136404,-6.213066 31.343234,0.07838 5.28468,3.481794 9.46889,8.585699 11.81014,14.469216 -7.01284,19.589155 -25.859013,17.178308 -34.371857,10.434129 5.5105,25.778618 20.187657,14.640558 30.364817,23.169178 z"
+         style="fill:#fff508;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         transform="matrix(1.126669,-0.689494,0.669083,1.217169,9.677508,-19.1388)"
+         id="path2874"
+         style="fill:#ffff08;fill-opacity:1;stroke:#000000;stroke-width:2.21604;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         cx="-4.4166665"
+         cy="79.916664"
+         rx="0.91666669"
+         ry="3.4166667" />
+      <ellipse
+         transform="matrix(1.126669,-0.689494,0.669083,1.217169,17.19665,-23.1654)"
+         id="path2876"
+         style="fill:#ffff08;fill-opacity:1;stroke:#000000;stroke-width:2.21604;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         cx="-4.4166665"
+         cy="79.916664"
+         rx="0.91666669"
+         ry="3.4166667" />
+    </g>
+    <g
+       id="g2862"
+       transform="matrix(5.1580263,0,0,5.1580263,-5.519657,-1.160784)">
+      <rect
+         y="63.717358"
+         x="11.08777"
+         height="22.398653"
+         width="29.991146"
+         id="rect2105"
+         style="fill:#e10000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="86.87294"
+         x="11.004427"
+         height="35.920876"
+         width="29.991146"
+         id="rect2109"
+         style="fill:#e10000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="rect2111"
+         d="m 41.468759,63.53125 v 26.9375 h 0.1875 v 32.375 h 26.6875 v -32.375 h 17 v -26.9375 z"
+         style="fill:#e10000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
