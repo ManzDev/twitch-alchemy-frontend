@@ -7,7 +7,7 @@ const INITIAL_ELEMENTS = {
   "../../public/icons/terminal.svg": null
 };
 
-const filterName = (elements) => {
+const removePathAndExtension = (elements) => {
   const FILES = Object.keys(elements);
   return FILES
     .map(element => element
@@ -15,5 +15,5 @@ const filterName = (elements) => {
       .replace(".svg", ""));
 };
 
-export const elements = filterName(INITIAL_ELEMENTS);
-export const allElements = filterName(ALL_ELEMENTS);
+export const initialElements = removePathAndExtension(INITIAL_ELEMENTS);
+export const allElementsFromImages = removePathAndExtension(ALL_ELEMENTS);
