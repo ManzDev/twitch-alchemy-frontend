@@ -491,7 +491,7 @@
   "es2015": [
     [
       "babel",
-      "javascript"
+      "babel"
     ]
   ],
   "hugo": [
