@@ -10,7 +10,5 @@ export const craftCards = (firstElement, secondElement) => {
     return recipes.some(([left, right]) => left === first && right === second);
   });
 
-  result && document.querySelector("score-board").incElements();
-
   return result ? [result] : [];
 };

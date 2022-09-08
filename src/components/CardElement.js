@@ -153,6 +153,9 @@ export class CardElement extends HTMLElement {
   }
 
   onDrop(ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+
     const id = ev.dataTransfer.getData("text/plain");
 
     const dragElement = document.querySelector(`#${id}`);
@@ -160,8 +163,11 @@ export class CardElement extends HTMLElement {
     dropElement.classList.remove("droppable");
 
     const results = craftCards(dragElement.type, dropElement.type);
-
     const allElements = [...document.querySelectorAll(".container card-element")].map(card => card.type);
+
+    const existResults = results.length > 0;
+    const existElement = allElements.includes(results[0]);
+    existResults && !existElement && document.querySelector("score-board").incElements();
 
     results.forEach(keyword => {
       const hasElement = allElements.includes(keyword);
@@ -185,7 +191,6 @@ export class CardElement extends HTMLElement {
       setFeedback(dropElement, "negative");
     }
 
-    ev.stopPropagation();
     return false;
   }
 
