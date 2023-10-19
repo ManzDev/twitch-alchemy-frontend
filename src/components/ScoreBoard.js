@@ -1,3 +1,5 @@
+import styles from "./ScoreBoard.css?inline";
+
 class ScoreBoard extends HTMLElement {
   constructor() {
     super();
@@ -5,55 +7,7 @@ class ScoreBoard extends HTMLElement {
   }
 
   static get styles() {
-    return /* css */`
-      :host {
-        --inactive-color: #011b1a;
-        --active-color: #19cbb6;
-      }
-
-      .container {
-        font-family: "DSEG7 Classic Mini";
-        font-size: 72px;
-        color: white;
-        margin-top: 0.5em;
-        display: flex;
-        background: #000;
-        padding: 0.4em;
-      }
-
-      .elements-container {
-        display: flex;
-      }
-
-      .elements {
-        transform: translateY(6px);
-        color: var(--active-color);
-        text-shadow: 0 0 10px var(--inactive-color);
-      }
-
-      .elements::before {
-        content: "888";
-        color: var(--inactive-color);
-        position: absolute;
-        z-index: -1;
-      }
-
-      .titles {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .title {
-        font-family: Montserrat;
-        font-size: 14px;
-        content: "ELEMENTS";
-      }
-
-      span {
-        display: block;
-        padding: 0 20px;
-      }
-    `;
+    return styles;
   }
 
   connectedCallback() {
@@ -62,17 +16,20 @@ class ScoreBoard extends HTMLElement {
 
   setElements(number) {
     const paddingNumber = String(number).padStart(3, "0");
-    this.shadowRoot.querySelector(".current").textContent = paddingNumber;
+    const current = this.shadowRoot.querySelector(".current");
+    current.textContent = paddingNumber;
   }
 
   incElements(size = 1) {
-    const number = Number(this.shadowRoot.querySelector(".current").textContent) + size;
+    const current = this.shadowRoot.querySelector(".current");
+    const number = Number(current.textContent) + size;
     this.setElements(number);
   }
 
   setTotal(number) {
     const paddingNumber = String(number).padStart(3, "0");
-    this.shadowRoot.querySelector(".total").textContent = paddingNumber;
+    const total = this.shadowRoot.querySelector(".total");
+    total.textContent = paddingNumber;
   }
 
   render() {
