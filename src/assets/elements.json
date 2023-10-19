@@ -62,10 +62,6 @@
     [
       "typescript",
       "google"
-    ],
-    [
-      "rxjs",
-      "javascript"
     ]
   ],
   "google": [
@@ -138,6 +134,12 @@
       "lisp"
     ]
   ],
+  "lisp": [
+    [
+      "cobol",
+      "upgrade"
+    ]
+  ],
   "microsoft": [
     [
       "internet-explorer",
@@ -164,7 +166,8 @@
     [
       "zig",
       "javascript"
-    ]
+    ],
+    ["nodejs", "upgrade"]
   ],
   "c++": [
     [
@@ -396,12 +399,6 @@
       "edge"
     ]
   ],
-  "elixir": [
-    [
-      "ruby",
-      "erlang"
-    ]
-  ],
   "flash": [
     [
       "svg",
@@ -602,10 +599,6 @@
   ],
   "linux": [
     [
-      "unix",
-      "gnome"
-    ],
-    [
       "c",
       "terminal"
     ]
@@ -718,7 +711,8 @@
     [
       "react",
       "nodejs"
-    ]
+    ],
+    ["react", "react"]
   ],
   "node-modules": [
     [
@@ -739,7 +733,7 @@
   "nuxt": [
     [
       "vue",
-      "markdown"
+      "vue"
     ]
   ],
   "pnpm": [
@@ -767,7 +761,7 @@
   "pyscript": [
     [
       "python",
-      "html"
+      "javascript"
     ]
   ],
   "qt": [
@@ -812,10 +806,6 @@
     [
       "css",
       "less"
-    ],
-    [
-      "css",
-      "typescript"
     ]
   ],
   "solidjs": [
@@ -871,7 +861,7 @@
   "svg": [
     [
       "xml",
-      "css"
+      "html"
     ]
   ],
   "tailwindcss": [
@@ -992,7 +982,8 @@
     [
       "microsoft",
       "electron"
-    ]
+    ],
+    ["notepad++", "microsoft"]
   ],
   "neovim": [
     [
@@ -1004,7 +995,8 @@
     [
       "google",
       "javascript"
-    ]
+    ],
+    ["angular", "downgrade"]
   ],
   "vue": [
     [
@@ -1027,10 +1019,8 @@
     ]
   ],
   "wsl": [
-    [
-      "microsoft",
-      "debian"
-    ]
+    ["microsoft", "debian"],
+    ["microsoft", "linux"]
   ],
   "zsh": [
     [
@@ -1043,5 +1033,43 @@
       "terminal",
       "terminal"
     ]
-  ]
+  ],
+  "asm": [["c", "downgrade"]],
+  "git": [["terminal", "zip"]],
+  "pinia": [["vue", "sqlite"]],
+  "zustand": [["react", "sqlite"]],
+  "zip": [["node-modules", "downgrade"]],
+  "powershell": [["wsl", "microsoft"]],
+  "mustache": [["ejs", "ejs"]],
+  "less": [["sass", "downgrade"]],
+  "unity": [["flash", "c-sharp"]],
+  "godot": [["linux", "unity"]],
+  "unreal": [["unity", "c++"]],
+  "bitbucket": [["github", "downgrade"]],
+  "chatgpt": [["stack-overflow", "upgrade"]],
+  "dbase": [["sql", "downgrade"]],
+  "visual-studio": [["microsoft", "c-sharp"]],
+  "ember": [["angular", "ejs"]],
+  "ejs": [["nodejs", "html"]],
+  "htmx": [["html", "upgrade"]],
+  "shoelace": [["web-components", "bootstrap"]],
+  "django": [["python", "html"]],
+  "this-is-fine": [["tailwindcss", "manzdev"]],
+  "laravel": [["php", "blade"]],
+  "quackscript": [["typescript", "duck-duck-go"]],
+  "svn": [["git", "downgrade"]],
+  "prettier": [["eslint", "downgrade"]],
+  "atom": [["notepad", "electron"], ["vscode", "downgrade"]],
+  "duck-duck-go": [["google", "bing"]],
+  "blazor": [["c-sharp", "html"]],
+  "composer": [["php", "npm"]],
+  "canary-chrome": [["chrome", "chrome"]],
+  "brave": [["chromium", "firefox"]],
+  "vbscript": [["visual-basic", "javascript"]],
+  "unocss": [["tailwindcss", "upgrade"]],
+  "tsx": [["typescript", "html"], ["typescript", "jsx"]],
+  "twitter": [["bootstrap", "bootstrap"]],
+  "x": [["twitter", "downgrade"]],
+  "manz9000": [["manzdev", "chatgpt"]],
+  "turbopack": [["rust", "webpack"]]
 }

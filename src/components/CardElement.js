@@ -110,7 +110,7 @@ export class CardElement extends HTMLElement {
   setType(type) {
     this.type = type;
     this.setAttribute("type", type);
-    this.setAttribute("id", "e" + crypto.randomUUID());
+    this.setAttribute("id", `e${crypto.randomUUID()}`);
   }
 
   connectedCallback() {
