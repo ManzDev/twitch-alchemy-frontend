@@ -649,6 +649,10 @@
     [
       "gulp",
       "nodejs"
+    ],
+    [
+      "vite",
+      "internet-explorer"
     ]
   ],
   "markdown-lint": [
@@ -964,6 +968,12 @@
     [
       "css",
       "web-components"
+    ]
+  ],
+  "vanilla-extract": [
+    [
+      "ts",
+      "css"
     ]
   ],
   "vscode": [
