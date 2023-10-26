@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 -39 256 256"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg24"
+   sodipodi:docname="polymer.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.486875"
+     inkscape:cx="715.78947"
+     inkscape:cy="565.85366"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <g
+     transform="matrix(1,0,0,-1,-1,178.58438)"
+     fill="none"
+     id="g24">
+    <g
+       transform="translate(51.398438)"
+       id="g8">
+      <path
+         d="M 103.20202,177.97969 0.79516406,0.6046875 H 52.002117 L 154.40897,177.97969 h -51.20695 z"
+         fill="#ff4081"
+         id="path1" />
+      <path
+         d="m 103.20202,177.97969 25.60045,-44.34375 25.6065,44.34375 h -51.20695 z"
+         fill-opacity="0.2"
+         fill="#ffffff"
+         id="path2" />
+      <path
+         d="m 77.601562,133.63594 25.600458,44.34375 25.60045,-44.34375 h -51.1999 -0.001 z"
+         fill-opacity="0.1"
+         fill="#ffffff"
+         id="path3" />
+      <path
+         d="M 52.001109,89.292187 77.601562,133.63594 103.20202,89.292187 h -51.199903 -0.001 z"
+         fill-opacity="0.1"
+         fill="#000000"
+         id="path4" />
+      <path
+         d="m 52.001109,89.292187 25.600453,-44.34375 25.600458,44.34375 h -51.199903 -0.001 z"
+         fill-opacity="0.2"
+         fill="#000000"
+         id="path5" />
+      <path
+         d="m 26.401664,44.948437 25.600453,44.34375 25.600453,-44.34375 h -51.199898 -0.001 z"
+         fill-opacity="0.3"
+         fill="#000000"
+         id="path6" />
+      <path
+         d="M 26.401664,44.948437 52.002117,0.6046875 77.60257,44.948437 h -51.199898 -0.001 z"
+         fill-opacity="0.4"
+         fill="#000000"
+         id="path7" />
+      <path
+         d="M 0.79516406,0.6046875 26.401664,44.948437 52.002117,0.6046875 H 0.79516406 Z"
+         fill-opacity="0.5"
+         fill="#000000"
+         id="path8" />
+    </g>
+    <g
+       transform="translate(0,44.34375)"
+       id="g14">
+      <path
+         d="M 52.193602,133.63594 0.98664844,44.948437 26.593148,0.6046875 103.39955,133.63594 h -51.206956 0.001 z"
+         fill="#536dfe"
+         id="path9" />
+      <path
+         d="m 52.193602,133.63594 25.6065,-44.343753 25.600448,44.343753 H 52.193602 Z"
+         fill-opacity="0.2"
+         fill="#ffffff"
+         id="path10" />
+      <path
+         d="m 26.593148,89.292187 25.600454,44.343753 25.6065,-44.343753 H 26.593148 Z"
+         fill-opacity="0.1"
+         fill="#ffffff"
+         id="path11" />
+      <path
+         d="m 26.593148,89.292187 25.600454,-44.34375 25.6065,44.34375 H 26.593148 Z"
+         id="path12" />
+      <path
+         d="M 0.98664844,44.948437 26.593148,89.292187 52.193602,44.948437 H 0.98664844 Z"
+         fill-opacity="0.1"
+         fill="#000000"
+         id="path13" />
+      <path
+         d="M 0.98664844,44.948437 26.593148,0.6046875 52.193602,44.948437 H 0.98664844 Z"
+         fill-opacity="0.2"
+         fill="#000000"
+         id="path14" />
+    </g>
+    <g
+       transform="translate(26.203125)"
+       id="g16">
+      <path
+         d="M 25.990477,89.292187 0.39002344,44.948437 25.990477,0.6046875 l 25.6065,44.3437495 -25.6065,44.34375 z"
+         fill="#303f9f"
+         id="path15" />
+      <path
+         d="M 51.596977,44.948437 25.990477,0.6046875 0.39002344,44.948437 H 51.596977 Z"
+         fill-opacity="0.2"
+         fill="#000000"
+         id="path16" />
+    </g>
+    <g
+       transform="translate(179.39062,88.6875)"
+       id="g18">
+      <path
+         d="M 26.415773,89.292187 0.80927344,44.948437 26.415773,0.6046875 52.016227,44.948437 26.415773,89.292187 Z"
+         fill="#3f51b5"
+         id="path17" />
+      <path
+         d="M 52.016227,44.948437 26.415773,89.292187 0.80927344,44.948437 H 52.016227 Z"
+         fill-opacity="0.2"
+         fill="#000000"
+         id="path18" />
+    </g>
+    <g
+       transform="translate(154.19531)"
+       id="g23">
+      <path
+         d="M 77.211539,133.63594 0.40514063,0.6046875 H 51.612094 L 102.81905,89.292187 77.212547,133.63594 h -0.001 z"
+         fill="#7986cb"
+         id="path19" />
+      <path
+         d="M 51.611086,89.292187 77.211539,133.63594 102.81804,89.292187 H 51.611086 Z"
+         fill-opacity="0.2"
+         fill="#ffffff"
+         id="path20" />
+      <path
+         d="m 51.611086,89.292187 25.600453,-44.34375 25.606501,44.34375 H 51.611086 Z"
+         fill-opacity="0.1"
+         fill="#ffffff"
+         id="path21" />
+      <path
+         d="M 26.004586,44.948437 51.611086,0.6046875 77.211539,44.948437 H 26.004586 Z"
+         fill-opacity="0.1"
+         fill="#000000"
+         id="path22" />
+      <path
+         d="M 0.40514063,0.6046875 26.005594,44.948437 51.612094,0.6046875 H 0.40514063 Z"
+         fill-opacity="0.2"
+         fill="#000000"
+         id="path23" />
+    </g>
+  </g>
+</svg>
