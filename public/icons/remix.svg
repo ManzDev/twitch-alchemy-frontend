@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="800"
+   viewBox="0 0 800 800"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="remix.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.486875"
+     inkscape:cx="302.9525"
+     inkscape:cy="434.40308"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     filter="url(#filter0_dd_126_53)"
+     id="g2">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M587.947 527.768C592.201 582.418 592.201 608.036 592.201 636H465.756C465.756 629.909 465.865 624.337 465.975 618.687C466.317 601.123 466.674 582.807 463.828 545.819C460.067 491.667 436.748 479.634 393.871 479.634H355.883H195V381.109H399.889C454.049 381.109 481.13 364.633 481.13 321.011C481.13 282.654 454.049 259.41 399.889 259.41H195V163H422.456C545.069 163 606 220.912 606 313.42C606 382.613 563.123 427.739 505.201 435.26C554.096 445.037 582.681 472.865 587.947 527.768Z"
+       fill="#E8F2FF"
+       id="path1" />
+    <path
+       d="M195 636V562.553H328.697C351.029 562.553 355.878 579.116 355.878 588.994V636H195Z"
+       fill="#E8F2FF"
+       id="path2" />
+  </g>
+  <defs
+     id="defs6">
+    <filter
+       id="filter0_dd_126_53"
+       x="131"
+       y="99"
+       width="539"
+       height="601"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood2" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix2" />
+      <feOffset
+         id="feOffset2" />
+      <feGaussianBlur
+         stdDeviation="28"
+         id="feGaussianBlur2" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite2" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.223529 0 0 0 0 0.572549 0 0 0 0 1 0 0 0 1 0"
+         id="feColorMatrix3" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_126_53"
+         id="feBlend3" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix4" />
+      <feOffset
+         id="feOffset4" />
+      <feGaussianBlur
+         stdDeviation="32"
+         id="feGaussianBlur4" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite4" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.223529 0 0 0 0 0.572549 0 0 0 0 1 0 0 0 0.9 0"
+         id="feColorMatrix5" />
+      <feBlend
+         mode="normal"
+         in2="effect1_dropShadow_126_53"
+         result="effect2_dropShadow_126_53"
+         id="feBlend5" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect2_dropShadow_126_53"
+         result="shape"
+         id="feBlend6" />
+    </filter>
+  </defs>
+</svg>

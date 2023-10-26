@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: #458;
+      color: #fff;
+    }
+
+    .container {
+      display: grid;
+      place-items: center;
+      height: 97vh;
+    }
+  </style>
+  <script type="module">
+    import elements from "./assets/elements.json" assert { type: "json" };
+    import cytoscape from "cytoscape";
+
+    const items = Object.keys(elements);
+    const keys = [];
+    const edges = items.map(item => {
+      const relations = elements[item];
+      const edges = relations.map(edge => {
+        edge.sort((a, b) => a - b);
+        const [first, second] = edge;
+        keys.push(item, first, second);
+        return [
+          { data: { source: first, target: item } },
+          { data: { source: second, target: item } },
+        ]
+      });
+      return edges;
+    }).flat(Infinity);
+
+
+    const nodes = [...new Set(keys)].map(node => ({ data: { id: node, name: node } }));
+
+    const pictures = keys.map(name => ({ selector: `#${name}`, style: { "background-image": `url("/icons/${name}.svg")` } }))
+
+    const cy = cytoscape({
+      container: document.querySelector(".container"),
+      boxSelectionEnabled: false,
+      autounselectify: true,
+
+      elements: {
+        nodes,
+        edges
+      },
+
+      style: [
+        {
+          selector: "node",
+          style: {
+            content: "data(name)",
+            "font-size": 20,
+            color: "#fff",
+            width: "10px",
+            height: "10px",
+            shape: "diamond",
+          }
+        },
+        {
+          selector: "edge",
+          style: {
+            width: 1,
+            "line-color": "darkred",
+            "line-opacity": 0,
+            "curve-style": "bezier",
+            "taxi-direction": "horizontal",
+            "line-style": "solid",
+            "line-cap": "butt",
+            "control-point-distance": 5,
+            "control-point-weight": 1,
+          }
+        },
+        // ...pictures
+      ],
+
+      layout: {
+        name: "grid",
+        directed: true,
+        padding: 15
+      }
+    });
+
+    cy.on('mouseover', 'node', (event) => {
+      const node = event.target;
+      const nodes = node.incomers();
+      nodes.animate({ style: { "line-opacity": 1 } }, { duration: 1000 });
+    });
+
+    cy.on('mouseout', 'node', (event) => {
+      const node = event.target;
+      const nodes = node.incomers();
+      nodes.animate({ style: { "line-opacity": 0 } }, { duration: 100 });
+    });
+
+  </script>
+</head>
+
+<body>
+
+  <div class="container"></div>
+
+</body>
+
+</html>

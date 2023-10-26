@@ -80,3 +80,22 @@ const notCrafteable = allElementsFromImages.filter(key => !crafteable.includes(k
 const sortedCrafteable = crafteable.sort();
 console.log("Crafteable: ", sortedCrafteable.slice(0, 100), sortedCrafteable.slice(100));
 console.log("No crafteable: ", notCrafteable.sort());
+
+/*
+const values = [...new Set(Object.values(jsonElements).flat(Infinity))];
+
+const checkCards = () => {
+  console.log("Checking...");
+  const cards = [...document.querySelectorAll("card-element")];
+
+  cards.forEach(card => {
+    const type = card.getAttribute("type");
+
+    if (!values.includes(type)) {
+      card.classList.add("non-craft");
+    }
+  });
+};
+
+setInterval(() => checkCards(), 2000);
+*/

@@ -22,6 +22,10 @@
   cursor: grabbing;
 }
 
+:host(.non-craft) {
+  border: 2px solid red;
+}
+
 :host(.droppable) {
   border-style: outset;
   border-color: #ccc;
