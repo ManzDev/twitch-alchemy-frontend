@@ -21,9 +21,6 @@
     import { allElementsFromImages } from "./modules/readFiles.js";
     import elements from "./assets/elements.json" assert { type: "json" };
     import "./components/CardElement.js";
-    console.log(elements);
-
-    window.allElementsFromImages = allElementsFromImages;
 
     const container = document.querySelector(".container");
     const keys = Object.keys(elements);
@@ -38,7 +35,6 @@
 
     const content = allCards.map(name => {
       const cards = elements[name] ?? [];
-      // const subcards = cards.flat(1).map(subcard => /* html */`<card-element type="${subcard}" style="scale: 0.6"></card-element>`);
       const subcards = cards.flat(1).map(subcard => /* html */`<card-element type="${subcard}" style="scale: 0.6"></card-element>`);
 
       return /* html */`

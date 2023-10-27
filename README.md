@@ -9,7 +9,6 @@
 - linux + qt = kde
 
 ** REVISAR:
-- GOOGLE (logo muy pequeño)
 - Revisar SVG de JSX (fuente no carga)
 - Precarga de las imágenes
 
