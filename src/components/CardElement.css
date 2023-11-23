@@ -96,6 +96,7 @@
 span {
   user-select: none;
   text-transform: uppercase;
+  font-size: calc(var(--size) * 0.14);
 }
 
 img {

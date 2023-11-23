@@ -1,5 +1,6 @@
 import { initialElements, allElementsFromImages } from "./modules/readFiles.js";
 import { checkAllCombinations } from "./modules/checkAllCombinations.js";
+import "./modules/findCombination.js";
 import jsonElements from "./assets/elements.json";
 import "./components/CardElement.js";
 import "./components/ScoreBoard.js";

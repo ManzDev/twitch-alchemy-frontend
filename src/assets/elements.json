@@ -1,5 +1,10 @@
 {
-  "adobe-flex": [["flash", "xml"]],
+  "adobe-flex": [
+    [
+      "flash",
+      "xml"
+    ]
+  ],
   "meme-spiderman": [
     [
       "mariadb",
@@ -20,6 +25,10 @@
     [
       "firefox",
       "downgrade"
+    ],
+    [
+      "internet-explorer",
+      "upgrade"
     ]
   ],
   "nunjucks": [
@@ -264,10 +273,58 @@
       "css"
     ]
   ],
+  "scratch": [
+    [
+      "godot",
+      "downgrade"
+    ],
+    [
+      "visual-basic",
+      "mspaint"
+    ]
+  ],
   "brainfuck": [
     [
-      "lisp",
-      "lisp"
+      "c",
+      "asm"
+    ]
+  ],
+  "underscore": [
+    [
+      "backbone",
+      "downgrade"
+    ],
+    [
+      "lodash",
+      "downgrade"
+    ],
+    [
+      "backbone",
+      "javascript"
+    ]
+  ],
+  "lodash": [
+    [
+      "jquery",
+      "babel"
+    ]
+  ],
+  "bem": [
+    [
+      "css",
+      "underscore"
+    ]
+  ],
+  "befunge": [
+    [
+      "brainfuck",
+      "c"
+    ]
+  ],
+  "lolcode": [
+    [
+      "scratch",
+      "scratch"
     ]
   ],
   "intellij-idea": [
@@ -304,6 +361,18 @@
     [
       "java",
       "downgrade"
+    ]
+  ],
+  "elasticsearch": [
+    [
+      "java",
+      "google"
+    ]
+  ],
+  "elixir": [
+    [
+      "clojure",
+      "javascript"
     ]
   ],
   "lisp": [
@@ -352,6 +421,16 @@
     [
       "terminal",
       "internet-explorer"
+    ],
+    [
+      "apache",
+      "tomcat"
+    ]
+  ],
+  "tomcat": [
+    [
+      "apache",
+      "java"
     ]
   ],
   "dotnet": [
@@ -374,6 +453,12 @@
     [
       "c++",
       "rust"
+    ]
+  ],
+  "excalidraw": [
+    [
+      "figma",
+      "aseprite"
     ]
   ],
   "clojure": [
@@ -462,9 +547,21 @@
       "apple"
     ]
   ],
+  "haml": [
+    [
+      "html",
+      "ruby"
+    ]
+  ],
+  "angular17": [
+    [
+      "angular",
+      "vite"
+    ]
+  ],
   "pug": [
     [
-      "nodejs",
+      "haml",
       "html"
     ]
   ],
@@ -568,6 +665,18 @@
       "c-sharp"
     ]
   ],
+  "biome": [
+    [
+      "eslint",
+      "rust"
+    ]
+  ],
+  "marko": [
+    [
+      "html",
+      "vue"
+    ]
+  ],
   "chromium": [
     [
       "google",
@@ -576,8 +685,16 @@
   ],
   "firefox": [
     [
-      "rust",
-      "css"
+      "chrome",
+      "linux"
+    ],
+    [
+      "opera",
+      "linux"
+    ],
+    [
+      "safari",
+      "linux"
     ]
   ],
   "eleventy": [
@@ -618,10 +735,50 @@
       "upgrade"
     ]
   ],
+  "gnome": [
+    [
+      "linux",
+      "gtk"
+    ]
+  ],
+  "gimp": [
+    [
+      "mspaint",
+      "linux"
+    ]
+  ],
+  "gtk": [
+    [
+      "gimp",
+      "linux"
+    ]
+  ],
+  "kde": [
+    [
+      "linux",
+      "qt"
+    ]
+  ],
+  "flutter": [
+    [
+      "dart",
+      "android"
+    ]
+  ],
+  "flask": [
+    [
+      "python",
+      "express"
+    ]
+  ],
   "flash": [
     [
       "d3",
       "downgrade"
+    ],
+    [
+      "internet-explorer",
+      "html4"
     ]
   ],
   "p5": [
@@ -859,7 +1016,7 @@
   "mspaint": [
     [
       "microsoft",
-      "jpeg"
+      "aseprite"
     ]
   ],
   "bmp": [
@@ -878,6 +1035,14 @@
     [
       "bmp",
       "zip"
+    ],
+    [
+      "gimp",
+      "gimp"
+    ],
+    [
+      "aseprite",
+      "aseprite"
     ]
   ],
   "ionic": [
@@ -962,6 +1127,28 @@
     [
       "vite",
       "jest"
+    ]
+  ],
+  "jest": [
+    [
+      "vitest",
+      "downgrade"
+    ],
+    [
+      "nodejs",
+      "javascript"
+    ]
+  ],
+  "lightningcss": [
+    [
+      "rust",
+      "css"
+    ]
+  ],
+  "milligram": [
+    [
+      "bootstrap",
+      "zip"
     ]
   ],
   "vscodium": [
@@ -1062,6 +1249,46 @@
       "markdown"
     ]
   ],
+  "prisma": [
+    [
+      "typescript",
+      "postgres"
+    ],
+    [
+      "typescript",
+      "mysql"
+    ],
+    [
+      "typescript",
+      "sql-server"
+    ],
+    [
+      "typescript",
+      "sqlite"
+    ],
+    [
+      "typescript",
+      "mongodb"
+    ]
+  ],
+  "remix": [
+    [
+      "nextjs",
+      "javascript"
+    ]
+  ],
+  "testing-library": [
+    [
+      "jest",
+      "javascript"
+    ]
+  ],
+  "shadcn": [
+    [
+      "nextjs",
+      "css"
+    ]
+  ],
   "nextjs": [
     [
       "react",
@@ -1118,7 +1345,7 @@
       "javascript"
     ],
     [
-      "css",
+      "sass",
       "javascript"
     ]
   ],
@@ -1177,6 +1404,10 @@
     ]
   ],
   "sass": [
+    [
+      "css",
+      "javascript"
+    ],
     [
       "css",
       "less"
@@ -1338,6 +1569,10 @@
     [
       "terminal",
       "word"
+    ],
+    [
+      "vim",
+      "downgrade"
     ]
   ],
   "ruby": [
@@ -1354,6 +1589,16 @@
     [
       "emacs",
       "upgrade"
+    ],
+    [
+      "terminal",
+      "vscode"
+    ]
+  ],
+  "w3m": [
+    [
+      "html",
+      "terminal"
     ]
   ],
   "manzdev": [
@@ -1446,7 +1691,23 @@
       "web-components"
     ]
   ],
+  "open-props": [
+    [
+      "tailwindcss",
+      "css"
+    ]
+  ],
+  "redis": [
+    [
+      "sqlite",
+      "mysql"
+    ]
+  ],
   "wasm": [
+    [ "asm", "chrome" ],
+    [ "asm", "firefox" ],
+    [ "asm", "safari" ],
+    [ "asm", "opera" ],
     [ "asm", "javascript" ],
     [ "rust", "javascript" ]
   ],
@@ -1454,12 +1715,26 @@
     [
       "apache",
       "microsoft"
+    ],
+    [
+      "microsoft",
+      "html"
+    ]
+  ],
+  "nginx": [
+    [
+      "apache",
+      "upgrade"
     ]
   ],
   "apache": [
     [
       "nginx",
       "downgrade"
+    ],
+    [
+      "iis",
+      "linux"
     ]
   ],
   "wordpress": [
@@ -1502,6 +1777,12 @@
       "css"
     ]
   ],
+  "chakra-ui": [
+    [
+      "react",
+      "bootstrap"
+    ]
+  ],
   "unix": [
     [
       "linux",
@@ -1514,11 +1795,21 @@
       "python"
     ]
   ],
-  "asm": [["c", "downgrade"]],
+  "asm": [
+    ["c", "downgrade"]
+  ],
   "git": [["terminal", "zip"]],
   "pinia": [["vue", "sqlite"]],
   "zustand": [["react", "sqlite"]],
-  "zip": [["node-modules", "downgrade"]],
+  "zip": [
+    ["node-modules", "downgrade"]
+  ],
+  "cssnano": [
+    [
+      "css",
+      "zip"
+    ]
+  ],
   "powershell": [["wsl", "microsoft"]],
   "mustache": [["ejs", "ejs"]],
   "less": [
@@ -1547,6 +1838,12 @@
   "visual-studio": [["microsoft", "c-sharp"]],
   "ember": [["angular", "ejs"]],
   "ejs": [["nodejs", "html"]],
+  "cakephp": [
+    [
+      "php",
+      "terminal"
+    ]
+  ],
   "mediawiki": [
     [
       "php",
@@ -1569,7 +1866,10 @@
   ],
   "shoelace": [["web-components", "bootstrap"]],
   "django": [["python", "html"]],
-  "this-is-fine": [["tailwindcss", "manzdev"]],
+  "this-is-fine": [
+    ["tailwindcss", "manzdev"],
+    ["bsod", "bsod"]
+  ],
   "laravel": [
     [
       "php",
@@ -1578,6 +1878,20 @@
     [
       "php",
       "upgrade"
+    ]
+  ],
+  "duckdb": [
+    [
+      "duck-duck-go",
+      "mysql"
+    ],
+    [
+      "duck-duck-go",
+      "mariadb"
+    ],
+    [
+      "duck-duck-go",
+      "postgres"
     ]
   ],
   "quackscript": [["typescript", "duck-duck-go"]],

@@ -5,7 +5,9 @@ const INITIAL_ELEMENTS = {
   "../../public/icons/css.svg": null,
   "../../public/icons/javascript.svg": null,
   "../../public/icons/web-components.svg": null,
-  "../../public/icons/terminal.svg": null
+  "../../public/icons/terminal.svg": null,
+  // "../../public/icons/upgrade.svg": null,
+  // "../../public/icons/downgrade.svg": null,
 };
 
 const removePathAndExtension = (elements) =>
