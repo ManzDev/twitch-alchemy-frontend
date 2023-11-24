@@ -24,6 +24,12 @@ body {
   flex-direction: column;
 }
 
+.game header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
