@@ -8,4 +8,7 @@ const removePathAndExtension = (elements) =>
 
 export const allElementsFromImages = removePathAndExtension(ALL_ELEMENTS);
 
-export const defaultElements = ["html", "css", "javascript", "web-components", "terminal"];
+const deafultCandidates = ["html", "css", "javascript", "web-components", "terminal"];
+
+// Check if initialCandidates really exists
+export const defaultElements = allElementsFromImages.filter((element) => deafultCandidates.includes(element));

@@ -13,8 +13,7 @@ const gameSaver = document.querySelector("game-saver");
 // Creamos los elementos iniciales de partida
 const initialElements = gameSaver.getSavedElements();
 
-allElementsFromImages
-  .filter((element) => initialElements.includes(element))
+initialElements
   .forEach(name => {
     const element = document.createElement("card-element");
     element.setAttribute("type", name);
