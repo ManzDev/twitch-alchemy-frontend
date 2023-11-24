@@ -85,6 +85,7 @@ export class CardElement extends HTMLElement {
         keyword === "bsod" && playSound("bsod");
         keyword !== "bsod" && setFeedback(element, "positive");
         dropElement.insertAdjacentElement("beforebegin", element);
+        document.querySelector("game-saver").save();
       }
 
       if (hasElement) {

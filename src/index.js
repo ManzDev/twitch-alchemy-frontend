@@ -1,19 +1,26 @@
-import { initialElements, allElementsFromImages } from "./modules/readFiles.js";
+import { allElementsFromImages } from "./modules/readFiles.js";
 import { checkAllCombinations } from "./modules/checkAllCombinations.js";
 import "./modules/findCombination.js";
 import jsonElements from "./assets/elements.json";
 import "./components/CardElement.js";
 import "./components/ScoreBoard.js";
+import "./components/GameSaver.js";
 
 const container = document.querySelector(".container");
 const scoreBoard = document.querySelector("score-board");
+const gameSaver = document.querySelector("game-saver");
 
 // Creamos los elementos iniciales de partida
-initialElements.forEach(name => {
-  const element = document.createElement("card-element");
-  element.setAttribute("type", name);
-  container.appendChild(element);
-});
+const initialElements = gameSaver.getSavedElements();
+
+// Filter from all elements so it is ordered
+allElementsFromImages
+  .filter((element) => initialElements.includes(element))
+  .forEach(name => {
+    const element = document.createElement("card-element");
+    element.setAttribute("type", name);
+    container.appendChild(element);
+  });
 
 const jsonEntries = Object.entries(jsonElements);
 const allCrafteableElements = [...new Set(jsonEntries.flat(Infinity))];

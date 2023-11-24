@@ -1,0 +1,21 @@
+:host {
+  --bg-color: #19cbb6;
+}
+
+.container {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+}
+
+button {
+  background-color: var(--bg-color);
+  border: none;
+  color: black;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
