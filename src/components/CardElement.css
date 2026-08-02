@@ -40,6 +40,25 @@
   animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
+:host(.unlock) {
+  animation: unlock-glow 2s ease-in-out both;
+}
+
+@keyframes unlock-glow {
+  0% {
+    transform: scale(0.25);
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.8);
+  }
+  50% {
+    transform: scale(1.15);
+    box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.4);
+  }
+}
+
 @keyframes new-card {
   0%,
   35% { transform: scale(0.25); }

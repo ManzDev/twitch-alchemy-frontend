@@ -18,14 +18,17 @@
 
 <body>
   <script type="module">
-    import { allElementsFromImages } from "./modules/readFiles.js";
-    import elements from "./assets/elements.json" assert { type: "json" };
+    // eslint-disable-next-line
+    const icons = import.meta.glob("../public/icons/*.svg");
+    import elements from "./assets/elements.js";
     import "./components/CardElement.js";
+
+    const allElementsFromImages = Object.keys(icons).map(path =>
+      path.replace("../public/icons/", "").replace(".svg", ""));
 
     const container = document.querySelector(".container");
     const keys = Object.keys(elements);
     const allCards = [...new Set(Object.entries(elements).flat(Infinity))];
-    const allImages = Object.keys(allElementsFromImages);
     const notCrafteable = allElementsFromImages.filter(key => !keys.includes(key));
     console.log({ notCrafteable, allCards });
 

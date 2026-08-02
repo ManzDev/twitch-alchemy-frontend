@@ -1,13 +1,1929 @@
-import elements from "./elements.json";
+/* eslint-disable */
+export default {
+  "adobe-flex": [
+    [
+      "flash",
+      "xml"
+    ]
+  ],
+  "meme-spiderman": [
+    [
+      "mariadb",
+      "mysql"
+    ],
+    [
+      "terminal",
+      "zsh"
+    ]
+  ],
+  "opera": [
+    [
+      "chrome",
+      "downgrade"
+    ]
+  ],
+  "netscape": [
+    [
+      "firefox",
+      "downgrade"
+    ],
+    [
+      "internet-explorer",
+      "upgrade"
+    ]
+  ],
+  "nunjucks": [
+    [
+      "html",
+      "firefox"
+    ]
+  ],
+  "neutralino": [
+    [
+      "electron",
+      "javascript"
+    ]
+  ],
+  "netbeans": [
+    [
+      "apache",
+      "eclipse"
+    ]
+  ],
+  "cuda": [
+    [
+      "c++",
+      "d3"
+    ]
+  ],
+  "bulma": [
+    [
+      "css",
+      "sass"
+    ]
+  ],
+  "codepen": [
+    [
+      "vscode",
+      "chrome"
+    ]
+  ],
+  "mysql": [
+    [
+      "mariadb",
+      "oracle"
+    ]
+  ],
+  "notepad": [
+    [
+      "microsoft",
+      "markdown"
+    ]
+  ],
+  "oracle": [
+    [
+      "java",
+      "sql"
+    ]
+  ],
+  "msdos": [
+    [
+      "terminal",
+      "microsoft"
+    ]
+  ],
+  "ruby-on-rails": [
+    [
+      "ruby",
+      "terminal"
+    ]
+  ],
+  "sql-server": [
+    [
+      "microsoft",
+      "mysql"
+    ]
+  ],
+  "daisyui": [
+    [
+      "tailwindcss",
+      "bootstrap"
+    ]
+  ],
+  "access": [
+    [
+      "microsoft",
+      "sql"
+    ]
+  ],
+  "styled-components": [
+    [
+      "css",
+      "jsx"
+    ]
+  ],
+  "ant-design": [
+    [
+      "react",
+      "css"
+    ]
+  ],
+  "actionscript": [
+    [
+      "javascript",
+      "flash"
+    ]
+  ],
+  "angular": [
+    [
+      "typescript",
+      "google"
+    ]
+  ],
+  "figma": [
+    [
+      "svg",
+      "css"
+    ]
+  ],
+  "cypress": [
+    [
+      "javascript",
+      "selenium"
+    ]
+  ],
+  "selenium": [
+    [
+      "jest",
+      "java"
+    ]
+  ],
+  "puppeteer": [
+    [
+      "google",
+      "cypress"
+    ],
+    [
+      "google",
+      "selenium"
+    ]
+  ],
+  "playwright": [
+    [
+      "microsoft",
+      "cypress"
+    ],
+    [
+      "microsoft",
+      "selenium"
+    ]
+  ],
+  "carmen-ansio": [
+    [
+      "figma",
+      "css"
+    ]
+  ],
+  "penpot": [
+    [
+      "figma",
+      "linux"
+    ]
+  ],
+  "google": [
+    [
+      "c",
+      "go"
+    ]
+  ],
+  "firebase": [
+    [
+      "google",
+      "sql"
+    ],
+    [
+      "google",
+      "mongodb"
+    ]
+  ],
+  "hono": [
+    [
+      "express",
+      "upgrade"
+    ]
+  ],
+  "mojo": [
+    [
+      "python",
+      "upgrade"
+    ]
+  ],
+  "sublime-text": [
+    [
+      "python",
+      "c++"
+    ],
+    [
+      "notepad++",
+      "upgrade"
+    ],
+    [
+      "vscode",
+      "downgrade"
+    ]
+  ],
+  "asp": [
+    [
+      "php",
+      "visual-basic"
+    ]
+  ],
+  "qbasic": [
+    [
+      "terminal",
+      "msdos"
+    ]
+  ],
+  "visual-basic": [
+    [
+      "qbasic",
+      "c-sharp"
+    ]
+  ],
+  "astro": [
+    [
+      "jsx",
+      "html"
+    ]
+  ],
+  "blade": [
+    [
+      "html",
+      "php"
+    ]
+  ],
+  "c": [
+    [
+      "terminal",
+      "bash"
+    ]
+  ],
+  "bootstrap": [
+    [
+      "css",
+      "css"
+    ]
+  ],
+  "scratch": [
+    [
+      "godot",
+      "downgrade"
+    ],
+    [
+      "visual-basic",
+      "mspaint"
+    ]
+  ],
+  "brainfuck": [
+    [
+      "c",
+      "asm"
+    ]
+  ],
+  "underscore": [
+    [
+      "backbone",
+      "downgrade"
+    ],
+    [
+      "lodash",
+      "downgrade"
+    ],
+    [
+      "backbone",
+      "javascript"
+    ]
+  ],
+  "lodash": [
+    [
+      "jquery",
+      "babel"
+    ]
+  ],
+  "bem": [
+    [
+      "css",
+      "underscore"
+    ]
+  ],
+  "befunge": [
+    [
+      "brainfuck",
+      "c"
+    ]
+  ],
+  "lolcode": [
+    [
+      "scratch",
+      "scratch"
+    ]
+  ],
+  "intellij-idea": [
+    [
+      "java",
+      "kotlin"
+    ],
+    [
+      "java",
+      "vscode"
+    ],
+    [
+      "java",
+      "android"
+    ]
+  ],
+  "aseprite": [
+    [
+      "c++",
+      "lua"
+    ]
+  ],
+  "love2d": [
+    [
+      "lua",
+      "godot"
+    ],
+    [
+      "lua",
+      "unity"
+    ]
+  ],
+  "eclipse": [
+    [
+      "java",
+      "downgrade"
+    ]
+  ],
+  "elasticsearch": [
+    [
+      "java",
+      "google"
+    ]
+  ],
+  "elixir": [
+    [
+      "clojure",
+      "javascript"
+    ]
+  ],
+  "lisp": [
+    [
+      "cobol",
+      "upgrade"
+    ]
+  ],
+  "microsoft": [
+    [
+      "internet-explorer",
+      "internet-explorer"
+    ]
+  ],
+  "bsod": [
+    [
+      "microsoft",
+      "microsoft"
+    ]
+  ],
+  "zig": [
+    [
+      "asm",
+      "c++"
+    ]
+  ],
 
-const keys = Object.keys(elements);
-
-// Muta el JSON a uno con keys ordenadas alfabéticamente
-keys.forEach(key => {
-  const recipes = elements[key];
-  recipes.forEach((recipe, index) => {
-    elements[key][index] = recipe.sort();
-  });
-});
-
-export { elements };
+  "bun": [
+    [
+      "zig",
+      "webkit"
+    ],
+    [
+      "zig",
+      "javascript"
+    ],
+    ["nodejs", "upgrade"]
+  ],
+  "c++": [
+    [
+      "c",
+      "c"
+    ]
+  ],
+  "java": [
+    [
+      "terminal",
+      "internet-explorer"
+    ],
+    [
+      "apache",
+      "tomcat"
+    ]
+  ],
+  "tomcat": [
+    [
+      "apache",
+      "java"
+    ]
+  ],
+  "dotnet": [
+    [
+      "java",
+      "c++"
+    ]
+  ],
+  "c-sharp": [
+    [
+      "c++",
+      "c++"
+    ],
+    [
+      "java",
+      "microsoft"
+    ]
+  ],
+  "carbon": [
+    [
+      "c++",
+      "rust"
+    ]
+  ],
+  "excalidraw": [
+    [
+      "figma",
+      "aseprite"
+    ]
+  ],
+  "clojure": [
+    [
+      "lisp",
+      "java"
+    ],
+    [
+      "lisp",
+      "javascript"
+    ]
+  ],
+  "cobol": [
+    [
+      "asm",
+      "sql"
+    ]
+  ],
+  "npm": [
+    [
+      "terminal",
+      "javascript"
+    ]
+  ],
+  "safari": [
+    [
+      "internet-explorer",
+      "apple"
+    ],
+    [
+      "webkit",
+      "apple"
+    ]
+  ],
+  "codesandbox": [
+    [
+      "npm",
+      "git"
+    ]
+  ],
+  "coffeescript": [
+    [
+      "javascript",
+      "java"
+    ],
+    [
+      "javascript",
+      "downgrade"
+    ]
+  ],
+  "kotlin": [
+    [
+      "java",
+      "java"
+    ]
+  ],
+  "dart": [
+    [
+      "kotlin",
+      "javascript"
+    ]
+  ],
+  "deno": [
+    [
+      "typescript",
+      "javascript"
+    ],
+    [
+      "typescript",
+      "nodejs"
+    ]
+  ],
+  "github": [
+    [
+      "git",
+      "git"
+    ],
+    [
+      "git",
+      "microsoft"
+    ]
+  ],
+  "ios": [
+    [
+      "swift",
+      "apple"
+    ]
+  ],
+  "haml": [
+    [
+      "html",
+      "ruby"
+    ]
+  ],
+  "angular17": [
+    [
+      "angular",
+      "vite"
+    ]
+  ],
+  "pug": [
+    [
+      "haml",
+      "html"
+    ]
+  ],
+  "gatsby": [
+    [
+      "javascript",
+      "react"
+    ]
+  ],
+  "stack-overflow": [
+    [
+      "node-modules",
+      "node-modules"
+    ]
+  ],
+  "alpinejs": [
+    [
+      "htmx",
+      "downgrade"
+    ],
+    [
+      "html",
+      "jquery"
+    ]
+  ],
+  "docsify": [
+    [
+      "markdown",
+      "html"
+    ]
+  ],
+  "docker": [
+    [
+      "git",
+      "zip"
+    ],
+    [
+      "terminal",
+      "jpeg"
+    ],
+    [
+      "linux",
+      "zip"
+    ]
+  ],
+  "chrome": [
+    [
+      "chromium",
+      "google"
+    ],
+    [
+      "internet-explorer",
+      "google"
+    ]
+  ],
+  "bower": [
+    [
+      "npm",
+      "internet-explorer"
+    ]
+  ],
+  "autoprefixer": [
+    [
+      "postcss",
+      "css"
+    ]
+  ],
+  "stylelint": [
+    [
+      "css",
+      "eslint"
+    ]
+  ],
+  "edge": [
+    [
+      "internet-explorer",
+      "chromium"
+    ],
+    [
+      "internet-explorer",
+      "chrome"
+    ],
+    [
+      "microsoft",
+      "chromium"
+    ],
+    [
+      "microsoft",
+      "chrome"
+    ]
+  ],
+  "webkit": [
+    [
+      "apple",
+      "google"
+    ]
+  ],
+  "apple": [
+    [
+      "swift",
+      "c-sharp"
+    ]
+  ],
+  "biome": [
+    [
+      "eslint",
+      "rust"
+    ]
+  ],
+  "marko": [
+    [
+      "html",
+      "vue"
+    ]
+  ],
+  "chromium": [
+    [
+      "google",
+      "webkit"
+    ]
+  ],
+  "firefox": [
+    [
+      "chrome",
+      "linux"
+    ],
+    [
+      "opera",
+      "linux"
+    ],
+    [
+      "safari",
+      "linux"
+    ]
+  ],
+  "eleventy": [
+    [
+      "markdown",
+      "javascript"
+    ]
+  ],
+  "electron": [
+    [
+      "javascript",
+      "chrome"
+    ],
+    [
+      "javascript",
+      "firefox"
+    ],
+    [
+      "javascript",
+      "edge"
+    ]
+  ],
+  "emacs": [
+    [
+      "vim",
+      "linux"
+    ]
+  ],
+  "pelican": [
+    [
+      "python",
+      "markdown"
+    ]
+  ],
+  "threejs": [
+    [
+      "d3",
+      "upgrade"
+    ]
+  ],
+  "gnome": [
+    [
+      "linux",
+      "gtk"
+    ]
+  ],
+  "gimp": [
+    [
+      "mspaint",
+      "linux"
+    ]
+  ],
+  "gtk": [
+    [
+      "gimp",
+      "linux"
+    ]
+  ],
+  "kde": [
+    [
+      "linux",
+      "qt"
+    ]
+  ],
+  "flutter": [
+    [
+      "dart",
+      "android"
+    ]
+  ],
+  "flask": [
+    [
+      "python",
+      "express"
+    ]
+  ],
+  "flash": [
+    [
+      "d3",
+      "downgrade"
+    ],
+    [
+      "internet-explorer",
+      "html4"
+    ]
+  ],
+  "p5": [
+    [
+      "svg",
+      "javascript"
+    ]
+  ],
+  "d3": [
+    [
+      "p5",
+      "javascript"
+    ]
+  ],
+  "yaml": [
+    [
+      "python",
+      "json"
+    ]
+  ],
+  "markdown": [
+    [
+      "html",
+      "word"
+    ]
+  ],
+  "word": [
+    [
+      "microsoft",
+      "notepad"
+    ],
+    [
+      "xml",
+      "microsoft"
+    ]
+  ],
+  "notepad++": [
+    [
+      "notepad",
+      "c++"
+    ],
+    [
+      "notepad",
+      "notepad"
+    ]
+  ],
+  "frontmatter": [
+    [
+      "markdown",
+      "yaml"
+    ]
+  ],
+  "objective-c": [
+    [
+      "c",
+      "java"
+    ],
+    [
+      "c",
+      "apple"
+    ]
+  ],
+  "swift": [
+    [
+      "objective-c",
+      "c"
+    ],
+    [
+      "c++",
+      "apple"
+    ]
+  ],
+  "go": [
+    [
+      "c++",
+      "javascript"
+    ]
+  ],
+  "graphql": [
+    [
+      "javascript",
+      "sql"
+    ]
+  ],
+  "rspack": [
+    [
+      "rust",
+      "webpack"
+    ]
+  ],
+  "handlebars": [
+    [
+      "javascript",
+      "mustache"
+    ]
+  ],
+  "babel": [
+    [
+      "javascript",
+      "javascript"
+    ]
+  ],
+  "esm": [
+    [
+      "babel",
+      "babel"
+    ]
+  ],
+  "hugo": [
+    [
+      "go",
+      "markdown"
+    ]
+  ],
+  "jquery": [
+    [
+      "internet-explorer",
+      "javascript"
+    ]
+  ],
+  "internet-explorer": [
+    [
+      "babel",
+      "javascript"
+    ]
+  ],
+  "html4": [
+    [
+      "html",
+      "internet-explorer"
+    ]
+  ],
+  "pandas": [
+    [
+      "python",
+      "excel"
+    ]
+  ],
+  "phaser": [
+    [
+      "godot",
+      "javascript"
+    ]
+  ],
+  "photoshop": [
+    [
+      "figma",
+      "c++"
+    ],
+    [
+      "flash",
+      "c++"
+    ]
+  ],
+  "symfony": [
+    [
+      "php",
+      "php"
+    ]
+  ],
+  "slim": [
+    [
+      "php",
+      "symfony"
+    ]
+  ],
+  "polymer": [
+    [
+      "google",
+      "javascript"
+    ],
+    [
+      "lit",
+      "downgrade"
+    ]
+  ],
+  "postgres": [
+    [
+      "mysql",
+      "linux"
+    ]
+  ],
+  "fastify": [
+    [
+      "express",
+      "express"
+    ],
+    [
+      "express",
+      "upgrade"
+    ]
+  ],
+  "express": [
+    [
+      "nodejs",
+      "nodejs"
+    ]
+  ],
+  "jekyll": [
+    [
+      "ruby",
+      "frontmatter"
+    ]
+  ],
+  "json": [
+    [
+      "xml",
+      "javascript"
+    ]
+  ],
+  "jsx": [
+    [
+      "html",
+      "javascript"
+    ]
+  ],
+  "jupyter": [
+    [
+      "python",
+      "word"
+    ]
+  ],
+  "linq": [
+    [
+      "c-sharp",
+      "sql"
+    ]
+  ],
+  "android": [
+    [
+      "linux",
+      "java"
+    ]
+  ],
+  "mspaint": [
+    [
+      "microsoft",
+      "aseprite"
+    ]
+  ],
+  "bmp": [
+    [
+      "microsoft",
+      "mspaint"
+    ]
+  ],
+  "yahoo": [
+    [
+      "bing",
+      "bing"
+    ]
+  ],
+  "jpeg": [
+    [
+      "bmp",
+      "zip"
+    ],
+    [
+      "gimp",
+      "gimp"
+    ],
+    [
+      "aseprite",
+      "aseprite"
+    ]
+  ],
+  "ionic": [
+    [
+      "angular",
+      "android"
+    ],
+    [
+      "angular",
+      "ios"
+    ]
+  ],
+  "debian": [
+    [
+      "linux",
+      "terminal"
+    ]
+  ],
+  "linux": [
+    [
+      "c",
+      "terminal"
+    ],
+    [
+      "unix",
+      "unix"
+    ]
+  ],
+  "stencil": [
+    [
+      "web-components",
+      "svelte"
+    ]
+  ],
+  "lit": [
+    [
+      "web-components",
+      "javascript"
+    ],
+    [
+      "web-components",
+      "typescript"
+    ],
+    [
+      "web-components",
+      "google"
+    ]
+  ],
+  "lua": [
+    [
+      "bash",
+      "c++"
+    ]
+  ],
+  "mariadb": [
+    [
+      "sql",
+      "c++"
+    ],
+    [
+      "mysql",
+      "linux"
+    ]
+  ],
+  "esbuild": [
+    [
+      "go",
+      "javascript"
+    ],
+    [
+      "go",
+      "webpack"
+    ]
+  ],
+  "2pac": [
+    [
+      "webpack",
+      "webpack"
+    ]
+  ],
+  "vitest": [
+    [
+      "vite",
+      "jest"
+    ]
+  ],
+  "jest": [
+    [
+      "vitest",
+      "downgrade"
+    ],
+    [
+      "nodejs",
+      "javascript"
+    ]
+  ],
+  "lightningcss": [
+    [
+      "rust",
+      "css"
+    ]
+  ],
+  "milligram": [
+    [
+      "bootstrap",
+      "zip"
+    ]
+  ],
+  "vscodium": [
+    [
+      "vscode",
+      "linux"
+    ]
+  ],
+  "webpack": [
+    [
+      "nodejs",
+      "terminal"
+    ],
+    [
+      "gulp",
+      "nodejs"
+    ],
+    [
+      "vite",
+      "internet-explorer"
+    ]
+  ],
+  "markdown-lint": [
+    [
+      "markdown",
+      "eslint"
+    ]
+  ],
+  "mongodb": [
+    [
+      "json",
+      "nodejs"
+    ],
+    [
+      "json",
+      "sql"
+    ]
+  ],
+  "gulp": [
+    [
+      "babel",
+      "terminal"
+    ]
+  ],
+  "grunt": [
+    [
+      "gulp",
+      "internet-explorer"
+    ]
+  ],
+  "mdx": [
+    [
+      "jsx",
+      "markdown"
+    ]
+  ],
+  "mermaid": [
+    [
+      "markdown",
+      "d3"
+    ],
+    [
+      "markdown",
+      "p5"
+    ]
+  ],
+  "storybook": [
+    [
+      "web-components",
+      "mdx"
+    ]
+  ],
+  "nestjs": [
+    [
+      "angular",
+      "nodejs"
+    ]
+  ],
+  "reactpy": [
+    [
+      "react",
+      "python"
+    ]
+  ],
+  "backbone": [
+    [
+      "jquery",
+      "upgrade"
+    ],
+    [
+      "angularjs",
+      "downgrade"
+    ]
+  ],
+  "docusaurus": [
+    [
+      "react",
+      "markdown"
+    ]
+  ],
+  "prisma": [
+    [
+      "typescript",
+      "postgres"
+    ],
+    [
+      "typescript",
+      "mysql"
+    ],
+    [
+      "typescript",
+      "sql-server"
+    ],
+    [
+      "typescript",
+      "sqlite"
+    ],
+    [
+      "typescript",
+      "mongodb"
+    ]
+  ],
+  "remix": [
+    [
+      "nextjs",
+      "javascript"
+    ]
+  ],
+  "testing-library": [
+    [
+      "jest",
+      "javascript"
+    ]
+  ],
+  "shadcn": [
+    [
+      "nextjs",
+      "css"
+    ]
+  ],
+  "nextjs": [
+    [
+      "react",
+      "nodejs"
+    ],
+    [
+      "react",
+      "react"
+    ]
+  ],
+  "node-modules": [
+    [
+      "nodejs",
+      "npm"
+    ]
+  ],
+  "nodejs": [
+    [
+      "deno",
+      "node-modules"
+    ],
+    [
+      "npm",
+      "javascript"
+    ]
+  ],
+  "nuxt": [
+    [
+      "vue",
+      "vue"
+    ]
+  ],
+  "pnpm": [
+    [
+      "npm",
+      "yarn"
+    ]
+  ],
+  "stimulus": [
+    [
+      "alpinejs",
+      "javascript"
+    ]
+  ],
+  "yarn": [
+    [
+      "npm",
+      "npm"
+    ]
+  ],
+  "postcss": [
+    [
+      "autoprefixer",
+      "javascript"
+    ],
+    [
+      "sass",
+      "javascript"
+    ]
+  ],
+  "preact": [
+    [
+      "jsx",
+      "javascript"
+    ]
+  ],
+  "pyscript": [
+    [
+      "python",
+      "javascript"
+    ]
+  ],
+  "qt": [
+    [
+      "c++",
+      "html"
+    ]
+  ],
+  "qwik": [
+    [
+      "astro",
+      "react"
+    ],
+    [
+      "react",
+      "angular"
+    ]
+  ],
+  "react": [
+    [
+      "php",
+      "javascript"
+    ],
+    [
+      "preact",
+      "javascript"
+    ],
+    [
+      "preact",
+      "webpack"
+    ]
+  ],
+  "haskell": [
+    [
+      "javascript",
+      "c"
+    ]
+  ],
+  "rust": [
+    [
+      "c++",
+      "haskell"
+    ]
+  ],
+  "sass": [
+    [
+      "css",
+      "javascript"
+    ],
+    [
+      "css",
+      "less"
+    ]
+  ],
+  "solidjs": [
+    [
+      "react",
+      "vue"
+    ]
+  ],
+  "excel": [
+    [
+      "python",
+      "microsoft"
+    ]
+  ],
+  "sql": [
+    [
+      "excel",
+      "json"
+    ],
+    [
+      "javascript",
+      "excel"
+    ],
+    [
+      "sqlite",
+      "sqlite"
+    ]
+  ],
+  "sqlite": [
+    [
+      "sql",
+      "c"
+    ]
+  ],
+  "svelte": [
+    [
+      "javascript",
+      "jquery"
+    ]
+  ],
+  "svelte-kit": [
+    [
+      "svelte",
+      "markdown"
+    ]
+  ],
+  "xml": [
+    [
+      "html",
+      "html"
+    ]
+  ],
+  "svg": [
+    [
+      "xml",
+      "html"
+    ]
+  ],
+  "tailwindcss": [
+    [
+      "bootstrap",
+      "sass"
+    ],
+    [
+      "html",
+      "css"
+    ]
+  ],
+  "aurelia": [
+    [
+      "angular",
+      "lit"
+    ]
+  ],
+  "tauri": [
+    [
+      "rust",
+      "nodejs"
+    ]
+  ],
+  "typescript": [
+    [
+      "javascript",
+      "java"
+    ],
+    [
+      "javascript",
+      "c-sharp"
+    ],
+    [
+      "javascript",
+      "microsoft"
+    ]
+  ],
+  "python": [
+    [
+      "javascript",
+      "bash"
+    ]
+  ],
+  "perl": [
+    [
+      "bash",
+      "c"
+    ]
+  ],
+  "php": [
+    [
+      "terminal",
+      "perl"
+    ]
+  ],
+  "materialize": [
+    [
+      "google",
+      "bootstrap"
+    ]
+  ],
+  "lxc": [
+    [
+      "docker",
+      "linux"
+    ]
+  ],
+  "bing": [
+    [
+      "microsoft",
+      "google"
+    ]
+  ],
+  "twig": [
+    [
+      "php",
+      "mustache"
+    ]
+  ],
+  "eslint": [
+    [
+      "javascript",
+      "esm"
+    ]
+  ],
+  "rollup": [
+    [
+      "gulp",
+      "esm"
+    ]
+  ],
+  "vite": [
+    [
+      "rollup",
+      "javascript"
+    ]
+  ],
+  "vi": [
+    [
+      "terminal",
+      "word"
+    ],
+    [
+      "vim",
+      "downgrade"
+    ]
+  ],
+  "ruby": [
+    [
+      "lua",
+      "c"
+    ]
+  ],
+  "vim": [
+    [
+      "vi",
+      "lua"
+    ],
+    [
+      "emacs",
+      "upgrade"
+    ],
+    [
+      "terminal",
+      "vscode"
+    ]
+  ],
+  "w3m": [
+    [
+      "html",
+      "terminal"
+    ]
+  ],
+  "manzdev": [
+    [
+      "css",
+      "web-components"
+    ]
+  ],
+  "fast": [
+    [
+      "web-components",
+      "microsoft"
+    ]
+  ],
+  "knockout": [
+    [
+      "jquery",
+      "jquery"
+    ]
+  ],
+  "fresh": [
+    [
+      "deno",
+      "express"
+    ]
+  ],
+  "jenkins": [
+    [
+      "java",
+      "gulp"
+    ]
+  ],
+  "gitlab": [
+    [
+      "github",
+      "linux"
+    ]
+  ],
+  "vanilla-extract": [
+    [
+      "typescript",
+      "css"
+    ]
+  ],
+  "vscode": [
+    [
+      "vim",
+      "eslint"
+    ],
+    [
+      "electron",
+      "typescript"
+    ],
+    [
+      "javascript",
+      "github"
+    ],
+    [
+      "atom",
+      "microsoft"
+    ],
+    [
+      "microsoft",
+      "electron"
+    ],
+    [
+      "notepad++",
+      "microsoft"
+    ]
+  ],
+  "neovim": [
+    [
+      "vim",
+      "vim"
+    ]
+  ],
+  "angularjs": [
+    [
+      "angular",
+      "downgrade"
+    ]
+  ],
+  "vue": [
+    [
+      "angularjs",
+      "esm"
+    ],
+    [
+      "html",
+      "web-components"
+    ]
+  ],
+  "open-props": [
+    [
+      "tailwindcss",
+      "css"
+    ]
+  ],
+  "redis": [
+    [
+      "sqlite",
+      "mysql"
+    ]
+  ],
+  "wasm": [
+    [ "asm", "chrome" ],
+    [ "asm", "firefox" ],
+    [ "asm", "safari" ],
+    [ "asm", "opera" ],
+    [ "asm", "javascript" ],
+    [ "rust", "javascript" ]
+  ],
+  "iis": [
+    [
+      "apache",
+      "microsoft"
+    ],
+    [
+      "microsoft",
+      "html"
+    ]
+  ],
+  "nginx": [
+    [
+      "apache",
+      "upgrade"
+    ]
+  ],
+  "apache": [
+    [
+      "nginx",
+      "downgrade"
+    ],
+    [
+      "iis",
+      "linux"
+    ]
+  ],
+  "wordpress": [
+    [
+      "php",
+      "sql"
+    ]
+  ],
+  "wsl": [
+    ["microsoft", "debian"],
+    ["microsoft", "linux"]
+  ],
+  "zsh": [
+    [
+      "bash",
+      "bash"
+    ]
+  ],
+  "bash": [
+    [
+      "terminal",
+      "terminal"
+    ]
+  ],
+  "supabase": [
+    [
+      "firebase",
+      "postgres"
+    ]
+  ],
+  "vitepress": [
+    [
+      "vite",
+      "wordpress"
+    ]
+  ],
+  "vuetify": [
+    [
+      "vue",
+      "css"
+    ]
+  ],
+  "chakra-ui": [
+    [
+      "react",
+      "bootstrap"
+    ]
+  ],
+  "unix": [
+    [
+      "linux",
+      "downgrade"
+    ]
+  ],
+  "pycharm": [
+    [
+      "intellij-idea",
+      "python"
+    ]
+  ],
+  "asm": [
+    ["c", "downgrade"]
+  ],
+  "git": [["terminal", "zip"]],
+  "pinia": [["vue", "sqlite"]],
+  "zustand": [["react", "sqlite"]],
+  "zip": [
+    ["node-modules", "downgrade"]
+  ],
+  "cssnano": [
+    [
+      "css",
+      "zip"
+    ]
+  ],
+  "powershell": [["wsl", "microsoft"]],
+  "mustache": [["ejs", "ejs"]],
+  "less": [
+    [
+      "sass",
+      "downgrade"
+    ]
+  ],
+  "unity": [["flash", "c-sharp"]],
+  "godot": [["linux", "unity"]],
+  "unreal": [["unity", "c++"]],
+  "bitbucket": [["github", "downgrade"]],
+  "atomico": [
+    [
+      "web-components",
+      "react"
+    ]
+  ],
+  "chatgpt": [
+    [
+      "stack-overflow",
+      "upgrade"
+      ]
+    ],
+  "dbase": [["sql", "downgrade"]],
+  "visual-studio": [["microsoft", "c-sharp"]],
+  "ember": [["angular", "ejs"]],
+  "ejs": [["nodejs", "html"]],
+  "cakephp": [
+    [
+      "php",
+      "terminal"
+    ]
+  ],
+  "mediawiki": [
+    [
+      "php",
+      "stack-overflow"
+    ]
+  ],
+  "htmx": [
+    [
+      "html",
+      "upgrade"
+    ],
+    [
+      "alpinejs",
+      "alpinejs"
+    ],
+    [
+      "x",
+      "html"
+    ]
+  ],
+  "shoelace": [["web-components", "bootstrap"]],
+  "django": [["python", "html"]],
+  "this-is-fine": [
+    ["tailwindcss", "manzdev"],
+    ["bsod", "bsod"]
+  ],
+  "laravel": [
+    [
+      "php",
+      "blade"
+    ],
+    [
+      "php",
+      "upgrade"
+    ]
+  ],
+  "duckdb": [
+    [
+      "duck-duck-go",
+      "mysql"
+    ],
+    [
+      "duck-duck-go",
+      "mariadb"
+    ],
+    [
+      "duck-duck-go",
+      "postgres"
+    ]
+  ],
+  "quackscript": [["typescript", "duck-duck-go"]],
+  "svn": [["git", "downgrade"]],
+  "prettier": [["eslint", "downgrade"]],
+  "atom": [["notepad", "electron"], ["vscode", "downgrade"]],
+  "duck-duck-go": [["google", "bing"]],
+  "blazor": [["c-sharp", "html"]],
+  "browserify": [
+    [
+      "nodejs",
+      "chrome"
+    ]
+  ],
+  "composer": [
+    [
+      "php",
+      "npm"
+    ],
+    [
+      "php",
+      "json"
+    ]
+  ],
+  "canary-chrome": [["chrome", "chrome"]],
+  "brave": [["chromium", "firefox"]],
+  "vbscript": [["visual-basic", "javascript"]],
+  "unocss": [["tailwindcss", "upgrade"]],
+  "tsx": [["typescript", "html"], ["typescript", "jsx"]],
+  "twitter": [["bootstrap", "bootstrap"]],
+  "x": [["twitter", "downgrade"]],
+  "manz9000": [["manzdev", "chatgpt"]],
+  "turbopack": [["nextjs", "webpack"]]
+};

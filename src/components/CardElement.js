@@ -1,8 +1,38 @@
 import styles from "./CardElement.css?inline";
-import { craftCards } from "../modules/craftCards.js";
-import { playSound } from "../modules/playSound.js";
-import { toCapitalize } from "../modules/toCapitalize.js";
-import { generateElement, setFeedback } from "../modules/domElements.js";
+import { INITIAL_ELEMENTS, checkAllCombinations, craftCards, getUnlocks, toCapitalize } from "../modules/game.js";
+
+const SOUNDS = {
+  plop: "sounds/plop.mp3",
+  negative: "sounds/negative.mp3",
+  positive: "sounds/positive.mp3",
+  bsod: "sounds/bsod.mp3",
+  duplicated: "sounds/duplicated.mp3",
+  heaven: "sounds/heaven.mp3"
+};
+
+const playSound = (name) => {
+  new Audio(SOUNDS[name]).play();
+};
+
+const generateElement = (keyword) => {
+  const element = document.createElement("card-element");
+  element.setType(keyword);
+  return element;
+};
+
+const setFeedback = (element, mood) => {
+  const cssClass = mood === "positive" ? "new" : "bad";
+  playSound(mood);
+  element.classList.add(cssClass);
+  setTimeout(() => element.classList.remove(cssClass), 500);
+};
+
+const grantUnlock = (type) => {
+  const element = generateElement(type);
+  document.querySelector(".container").appendChild(element);
+  element.classList.add("unlock");
+  playSound("heaven");
+};
 
 export class CardElement extends HTMLElement {
   constructor() {
@@ -37,7 +67,7 @@ export class CardElement extends HTMLElement {
     ev.dataTransfer.setData("text/plain", this.id);
   }
 
-  onDragEnd(ev) {
+  onDragEnd() {
     this.classList.remove("ghost");
   }
 
@@ -50,55 +80,51 @@ export class CardElement extends HTMLElement {
 
   onDragEnter(ev) {
     playSound("plop");
-    const element = ev.srcElement;
-    element.classList.add("droppable");
+    ev.srcElement.classList.add("droppable");
   }
 
   onDragLeave(ev) {
-    const element = ev.srcElement;
-    element.classList.remove("droppable");
+    ev.srcElement.classList.remove("droppable");
   }
 
-  // *** TO DO: Refactor
   onDrop(ev) {
     ev.preventDefault();
     ev.stopPropagation();
 
-    const id = ev.dataTransfer.getData("text/plain");
-
-    const dragElement = document.querySelector(`#${id}`);
     const dropElement = ev.srcElement;
     dropElement.classList.remove("droppable");
 
-    const results = craftCards(dragElement.type, dropElement.type);
-    const allElements = [...document.querySelectorAll(".container card-element")].map(card => card.type);
+    const dragElement = document.querySelector(`#${ev.dataTransfer.getData("text/plain")}`);
+    const [result] = craftCards(dragElement.type, dropElement.type);
+    const allTypes = [...document.querySelectorAll(".container card-element")].map((card) => card.type);
 
-    const existResults = results.length > 0;
-    const existElement = allElements.includes(results[0]);
-    existResults && !existElement && document.querySelector("score-board").incElements();
-
-    results.forEach(keyword => {
-      const hasElement = allElements.includes(keyword);
-
-      if (!hasElement) {
-        const element = generateElement(keyword);
-        keyword === "bsod" && playSound("bsod");
-        keyword !== "bsod" && setFeedback(element, "positive");
-        dropElement.insertAdjacentElement("beforebegin", element);
-      }
-
-      if (hasElement) {
-        playSound("duplicated");
-        const elements = [...document.querySelectorAll(".container card-element")];
-        const originalElement = elements.find(item => item.type === keyword);
-        setFeedback(originalElement, "duplicated");
-      }
-    });
-
-    if (results.length === 0) {
+    if (!result) {
       setFeedback(dropElement, "negative");
+      return false;
     }
 
+    if (allTypes.includes(result)) {
+      const original = document.querySelector(`.container card-element[type="${result}"]`);
+      setFeedback(original, "duplicated");
+      return false;
+    }
+
+    const element = generateElement(result);
+    if (result === "bsod") {
+      playSound("bsod");
+    } else {
+      setFeedback(element, "positive");
+    }
+    dropElement.insertAdjacentElement("beforebegin", element);
+    document.querySelector("score-board").incElements();
+
+    const count = document.querySelectorAll(".container card-element").length;
+    const granted = getUnlocks(count).filter((type) => !allTypes.includes(type));
+    if (granted.length) {
+      granted.forEach(grantUnlock);
+      document.querySelector("score-board")
+        .setTotal(checkAllCombinations([...INITIAL_ELEMENTS, ...getUnlocks(count)]).length);
+    }
     return false;
   }
 

@@ -1,41 +1,44 @@
-import { initialElements, allElementsFromImages } from "./modules/readFiles.js";
-import { checkAllCombinations } from "./modules/checkAllCombinations.js";
-import "./modules/findCombination.js";
-import jsonElements from "./assets/elements.json";
+import { INITIAL_ELEMENTS, checkAllCombinations } from "./modules/game.js";
+import elements from "./assets/elements.js";
 import "./components/CardElement.js";
 import "./components/ScoreBoard.js";
+
+// eslint-disable-next-line
+const icons = import.meta.glob("../public/icons/*.svg");
+
+const removePathAndExtension = (paths) =>
+  Object.keys(paths).map((path) =>
+    path.replace("../public/icons/", "").replace(".svg", ""));
+
+const initialElements = INITIAL_ELEMENTS;
+const allElementsFromImages = removePathAndExtension(icons);
 
 const container = document.querySelector(".container");
 const scoreBoard = document.querySelector("score-board");
 
-// Creamos los elementos iniciales de partida
-initialElements.forEach(name => {
+// Elementos iniciales de partida
+initialElements.forEach((name) => {
   const element = document.createElement("card-element");
   element.setAttribute("type", name);
   container.appendChild(element);
 });
 
-const jsonEntries = Object.entries(jsonElements);
-const allCrafteableElements = [...new Set(jsonEntries.flat(Infinity))];
-
-// console.log({ initialElements, allElementsFromImages, allCrafteableElements });
+const crafteable = checkAllCombinations(initialElements);
+const notCrafteable = allElementsFromImages.filter((key) => !crafteable.includes(key));
 
 scoreBoard.setElements(initialElements.length);
-scoreBoard.setTotal(allCrafteableElements.length);
+scoreBoard.setTotal(crafteable.length);
 
-const crafteable = checkAllCombinations(structuredClone(initialElements));
-const notCrafteable = allElementsFromImages.filter(key => !crafteable.includes(key));
+// Diagnóstico en consola
+console.log("Crafteable:", crafteable.sort().join(", "));
+console.log("No crafteable:", notCrafteable.sort().join(", "));
 
-const sortedCrafteable = crafteable.sort();
-console.log("Crafteable: ", sortedCrafteable.slice(0, 100), sortedCrafteable.slice(100));
-console.log("No crafteable: ", notCrafteable.sort());
-
-// Comprueba los elementos del JSON que no tienen imagen en public/icons
+// Elementos del JSON que no tienen imagen en public/icons
 const checkAllElements = () => {
-  allCrafteableElements.forEach(element => {
-    const existImage = allElementsFromImages.includes(element);
-    const imagesCheck = existImage ? "✅" : "❌";
-    !existImage && console.log(`${element} in JSON ✅, in Images ${imagesCheck}`);
+  Object.keys(elements).forEach((element) => {
+    if (!allElementsFromImages.includes(element)) {
+      console.log(`${element} in JSON ✅, in Images ❌`);
+    }
   });
 };
 

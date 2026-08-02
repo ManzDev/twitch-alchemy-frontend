@@ -1,51 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="360"
-   height="360"
-   version="1.0"
-   id="svg1"
-   sodipodi:docname="biome.svg"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   inkscape:export-filename="to-biome.png"
-   inkscape:export-xdpi="136.53334"
-   inkscape:export-ydpi="136.53334"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.75055013"
-     inkscape:cx="361.73467"
-     inkscape:cy="156.55183"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
-  <rect
-     id="background"
-     width="83.715874%"
-     height="83.715874%"
-     fill="none"
-     x="30.648375"
-     y="30.658848"
-     style="stroke-width:0.837159" />
-  <path
-     id="emblem"
-     d="M 180.26539,30.658848 113.61081,146.10304 c 25.29224,-7.79738 52.50073,-8.95341 78.87542,-2.73215 l 22.5271,5.3173 -21.19434,89.86899 -22.55892,-5.31713 c -17.32919,-4.08802 -35.3934,-0.0374 -49.3639,11.00696 -6.98835,5.52734 -12.49376,12.46697 -16.26684,20.25171 l -20.851945,-10.0886 c 5.275188,-10.89562 12.987681,-20.61336 22.729695,-28.32527 19.48738,-15.42465 44.89515,-21.09054 69.0882,-15.38195 l 10.56495,-44.78967 c -37.8446,-8.9216 -77.72852,-0.0374 -108.219516,24.0951 -30.487647,24.13027 -48.296525,60.91586 -48.296525,99.7977 l 299.250771,0.005 z"
-     fill="#60a5fa"
-     stroke-linecap="square"
-     stroke-width="22.8034"
-     style="paint-order:markers fill stroke" />
+<svg xmlns="http://www.w3.org/2000/svg" id="svg1" width="360" height="360">
+  <rect id="background" width="83.716%" height="83.716%" x="30.648" y="30.659" fill="none"
+    style="stroke-width:.837159" />
+  <path id="emblem" fill="#60a5fa" stroke-linecap="square" stroke-width="22.803"
+    d="m180.265 30.659-66.654 115.444c25.292-7.797 52.5-8.953 78.875-2.732l22.527 5.317-21.194 89.87-22.559-5.318c-17.33-4.088-35.393-.037-49.364 11.007a58.1 58.1 0 0 0-16.267 20.252L84.777 254.41a81.3 81.3 0 0 1 22.73-28.325 81.19 81.19 0 0 1 69.088-15.382l10.565-44.79c-37.844-8.921-77.728-.037-108.22 24.095-30.487 24.13-48.296 60.916-48.296 99.798l299.251.005z"
+    style="paint-order:markers fill stroke" />
 </svg>

@@ -4,6 +4,8 @@ class ScoreBoard extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
+    this.elements = 0;
+    this.total = 0;
   }
 
   static get styles() {
@@ -15,21 +17,17 @@ class ScoreBoard extends HTMLElement {
   }
 
   setElements(number) {
-    const paddingNumber = String(number).padStart(3, "0");
-    const current = this.shadowRoot.querySelector(".current");
-    current.textContent = paddingNumber;
+    this.elements = number;
+    this.shadowRoot.querySelector(".current").textContent = String(number).padStart(3, "0");
   }
 
   incElements(size = 1) {
-    const current = this.shadowRoot.querySelector(".current");
-    const number = Number(current.textContent) + size;
-    this.setElements(number);
+    this.setElements(this.elements + size);
   }
 
   setTotal(number) {
-    const paddingNumber = String(number).padStart(3, "0");
-    const total = this.shadowRoot.querySelector(".total");
-    total.textContent = paddingNumber;
+    this.total = number;
+    this.shadowRoot.querySelector(".total").textContent = String(number).padStart(3, "0");
   }
 
   render() {
