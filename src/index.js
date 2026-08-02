@@ -5,14 +5,19 @@ import "./components/ScoreBoard.js";
 const container = document.querySelector(".container");
 const scoreBoard = document.querySelector("score-board");
 
-// Elementos iniciales de partida
-INITIAL_ELEMENTS.forEach((name) => {
-  const element = document.createElement("card-element");
-  element.setAttribute("type", name);
-  container.appendChild(element);
-});
+container.addEventListener("dragover", (ev) => ev.preventDefault());
+container.addEventListener("drop", (ev) => ev.preventDefault());
 
+const createCard = (type) => {
+  const element = document.createElement("card-element");
+  element.setAttribute("type", type);
+  container.appendChild(element);
+};
+
+const STARTING_CARDS = INITIAL_ELEMENTS.length;
 const crafteable = checkAllCombinations(INITIAL_ELEMENTS);
 
-scoreBoard.setElements(INITIAL_ELEMENTS.length);
+crafteable.slice(0, STARTING_CARDS).forEach(createCard);
+
+scoreBoard.setElements(STARTING_CARDS);
 scoreBoard.setTotal(crafteable.length);

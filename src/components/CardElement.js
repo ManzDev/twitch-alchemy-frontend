@@ -2,17 +2,22 @@ import styles from "./CardElement.css?inline";
 import { INITIAL_ELEMENTS, checkAllCombinations, craftCards, getUnlocks, toCapitalize } from "../modules/game.js";
 
 const SOUNDS = {
-  plop: "sounds/plop.mp3",
-  negative: "sounds/negative.mp3",
-  positive: "sounds/positive.mp3",
-  bsod: "sounds/bsod.mp3",
-  duplicated: "sounds/duplicated.mp3",
-  heaven: "sounds/heaven.mp3"
+  plop: new Audio("sounds/plop.mp3"),
+  negative: new Audio("sounds/negative.mp3"),
+  positive: new Audio("sounds/positive.mp3"),
+  bsod: new Audio("sounds/bsod.mp3"),
+  duplicated: new Audio("sounds/duplicated.mp3"),
+  heaven: new Audio("sounds/heaven.mp3")
 };
 
 const playSound = (name) => {
-  new Audio(SOUNDS[name]).play();
+  const audio = SOUNDS[name];
+  audio.currentTime = 0;
+  audio.play();
 };
+
+const fallbackUUID = () =>
+  `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 10)}`;
 
 const generateElement = (keyword) => {
   const element = document.createElement("card-element");
@@ -20,11 +25,21 @@ const generateElement = (keyword) => {
   return element;
 };
 
+const scrollToEnd = () => {
+  const game = document.querySelector(".game");
+  if (game) {
+    game.scrollIntoView({ behavior: "smooth", block: "end" });
+  }
+};
+
 const setFeedback = (element, mood) => {
   const cssClass = mood === "positive" ? "new" : "bad";
   playSound(mood);
   element.classList.add(cssClass);
   setTimeout(() => element.classList.remove(cssClass), 500);
+  if (mood === "positive") {
+    scrollToEnd();
+  }
 };
 
 const grantUnlock = (type) => {
@@ -32,12 +47,14 @@ const grantUnlock = (type) => {
   document.querySelector(".container").appendChild(element);
   element.classList.add("unlock");
   playSound("heaven");
+  scrollToEnd();
 };
 
 export class CardElement extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
+    this.lastPlopAt = 0;
   }
 
   static get styles() {
@@ -47,7 +64,7 @@ export class CardElement extends HTMLElement {
   setType(type) {
     this.type = type;
     this.setAttribute("type", type);
-    this.setAttribute("id", `e${globalThis.crypto.randomUUID()}`);
+    this.setAttribute("id", `e${globalThis.crypto.randomUUID?.() ?? fallbackUUID()}`);
   }
 
   connectedCallback() {
@@ -79,7 +96,11 @@ export class CardElement extends HTMLElement {
   }
 
   onDragEnter(ev) {
-    playSound("plop");
+    const now = performance.now();
+    if (now - this.lastPlopAt >= 100) {
+      this.lastPlopAt = now;
+      playSound("plop");
+    }
     ev.srcElement.classList.add("droppable");
   }
 
@@ -92,9 +113,14 @@ export class CardElement extends HTMLElement {
     ev.stopPropagation();
 
     const dropElement = ev.srcElement;
+    const dragElement = document.querySelector(`#${ev.dataTransfer.getData("text/plain")}`);
+
+    if (!dropElement || !dragElement || !dropElement.type || !dragElement.type) {
+      return false;
+    }
+
     dropElement.classList.remove("droppable");
 
-    const dragElement = document.querySelector(`#${ev.dataTransfer.getData("text/plain")}`);
     const [result] = craftCards(dragElement.type, dropElement.type);
     const allTypes = [...document.querySelectorAll(".container card-element")].map((card) => card.type);
 
