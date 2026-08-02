@@ -58,9 +58,9 @@ test("checkAllCombinations no muta la entrada y siempre es determinista", () => 
   assert.deepEqual(first, second);
 });
 
-test("con los elementos iniciales se alcanzan 256 cartas (251 + 5 iniciales)", () => {
+test("con los elementos iniciales se alcanzan 265 cartas (260 + 5 iniciales)", () => {
   const crafteable = checkAllCombinations(INITIAL_ELEMENTS);
-  assert.equal(crafteable.length, 256);
+  assert.equal(crafteable.length, 265);
   assert.equal(crafteable.length, new Set(crafteable).size);
 });
 
@@ -130,8 +130,8 @@ test("upgrade y downgrade solo se obtienen por desbloqueo, nunca por crafteo", (
 
 test("totales del scoreboard segun los desbloqueos", () => {
   const base = checkAllCombinations(INITIAL_ELEMENTS).length;
-  assert.equal(base, 256);
-  assert.equal(checkAllCombinations([...INITIAL_ELEMENTS, "upgrade"]).length, 269);
-  assert.equal(checkAllCombinations([...INITIAL_ELEMENTS, "downgrade"]).length, 285);
-  assert.equal(checkAllCombinations([...INITIAL_ELEMENTS, "upgrade", "downgrade"]).length, 296);
+  assert.equal(base, 265);
+  assert.equal(checkAllCombinations([...INITIAL_ELEMENTS, "upgrade"]).length, 288);
+  assert.equal(checkAllCombinations([...INITIAL_ELEMENTS, "downgrade"]).length, 300);
+  assert.equal(checkAllCombinations([...INITIAL_ELEMENTS, "upgrade", "downgrade"]).length, 327);
 });

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 1000 1000">
+  <rect x="0" y="0" width="1000" height="1000" fill="#333" stroke="none" />
+  <g fill="none" stroke-width="40" stroke="#F6F4F2" stroke-linecap="square" transform="translate(100 400) scale(0.8)">
+    <path d="M30 20h130c9.996 0 10 40 10 60v140H41c-11.004 0-11-40-11-60s-.004-60 10-60h110"/>
+    <path d="M850 140h110c10 0 10-40 10-60s0-60-10-60H840c-10 0-10 40-10 60v80c0 20 0 60 10 60h130"/>
+    <path d="M430 100v120"/>
+    <path d="M430 20.2v.6"/>
+    <path d="M370 220V80c0-20 0-60-10-60H240c-10 0-10 40-10 60v140"/>
+    <path d="M770 220V80c0-20 0-60-10-60H500c-10 0-10 40-10 60v140"/>
+  </g>
+</svg>

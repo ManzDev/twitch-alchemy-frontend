@@ -554,12 +554,6 @@ export default {
       "ruby"
     ]
   ],
-  "angular17": [
-    [
-      "angular",
-      "vite"
-    ]
-  ],
   "pug": [
     [
       "haml",
@@ -966,10 +960,6 @@ export default {
     [
       "express",
       "express"
-    ],
-    [
-      "express",
-      "upgrade"
     ]
   ],
   "express": [
@@ -1102,10 +1092,6 @@ export default {
     [
       "sql",
       "c++"
-    ],
-    [
-      "mysql",
-      "linux"
     ]
   ],
   "esbuild": [
@@ -1493,10 +1479,6 @@ export default {
     ]
   ],
   "typescript": [
-    [
-      "javascript",
-      "java"
-    ],
     [
       "javascript",
       "c-sharp"
@@ -1898,7 +1880,7 @@ export default {
   "quackscript": [["typescript", "duck-duck-go"]],
   "svn": [["git", "downgrade"]],
   "prettier": [["eslint", "downgrade"]],
-  "atom": [["notepad", "electron"], ["vscode", "downgrade"]],
+  "atom": [["notepad", "electron"]],
   "duck-duck-go": [["google", "bing"]],
   "blazor": [["c-sharp", "html"]],
   "browserify": [
@@ -1925,5 +1907,40 @@ export default {
   "twitter": [["bootstrap", "bootstrap"]],
   "x": [["twitter", "downgrade"]],
   "manz9000": [["manzdev", "chatgpt"]],
-  "turbopack": [["nextjs", "webpack"]]
+  "turbopack": [["nextjs", "webpack"]],
+  "copilot": [["microsoft", "chatgpt"]],
+  "claude": [["apple", "chatgpt"]],
+  "opencode": [["terminal", "chatgpt"]],
+  "gemini": [["google", "chatgpt"]],
+  "grok": [["x", "chatgpt"]],
+  "deepseek": [["chatgpt", "downgrade"]],
+  "kimi": [["markdown", "chatgpt"]],
+  "llamacpp": [
+    ["chatgpt", "c++"],
+    ["ollama", "upgrade"]
+  ],
+  "ollama": [["llamacpp", "downgrade"]],
+  "zai": [["deepseek", "kimi"]],
+  "vercel": [["nextjs", "github"]],
+  "github-pages": [["github", "html"]],
+  "github-actions": [["github", "jenkins"]],
+  "cloudflare-pages": [["github-pages", "upgrade"]],
+  "aws": [["firebase", "upgrade"]],
+  "azure": [["microsoft", "aws"]],
+  "google-cloud": [["google", "aws"]],
+  "picocss": [["tailwindcss", "downgrade"]],
+  "purecss": [["yahoo", "css"]],
+  "material-ui": [["react", "materialize"]],
+  "flowbite": [["tailwindcss", "javascript"]],
+  "emotion": [["styled-components", "react"]],
+  "stylus": [["less", "sass"]],
+  "animejs": [["d3", "javascript"]],
+  "rxjs": [["angular", "javascript"]],
+  "mithril": [["preact", "downgrade"]],
+  "erlang": [["elixir", "downgrade"]],
+  "fish": [["zsh", "upgrade"]],
+  "solidity": [["python", "rust"]],
+  "springboot": [["java", "express"]],
+  "zod": [["typescript", "json"]],
+  "oxc": [["esbuild", "rust"]]
 };

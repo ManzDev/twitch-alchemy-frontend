@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="svg1" width="360" height="360">
-  <rect id="background" width="83.716%" height="83.716%" x="30.648" y="30.659" fill="none"
-    style="stroke-width:.837159" />
-  <path id="emblem" fill="#60a5fa" stroke-linecap="square" stroke-width="22.803"
-    d="m180.265 30.659-66.654 115.444c25.292-7.797 52.5-8.953 78.875-2.732l22.527 5.317-21.194 89.87-22.559-5.318c-17.33-4.088-35.393-.037-49.364 11.007a58.1 58.1 0 0 0-16.267 20.252L84.777 254.41a81.3 81.3 0 0 1 22.73-28.325 81.19 81.19 0 0 1 69.088-15.382l10.565-44.79c-37.844-8.921-77.728-.037-108.22 24.095-30.487 24.13-48.296 60.916-48.296 99.798l299.251.005z"
-    style="paint-order:markers fill stroke" />
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" version="1.0">
+  <path fill="#60a5fa" stroke-linecap="square"
+    d="m226 92-77 133q45-14 91-3l26 6-25 104-26-6a67 67 0 0 0-75 36l-24-12a94 94 0 0 1 106-50l12-52A147 147 0 0 0 54 391h344z"
+    transform="translate(-29 -49)scale(.90389)" />
 </svg>
