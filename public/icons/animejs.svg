@@ -1,11 +1,1 @@
-<svg viewBox="0 0 1000 1000">
-  <rect x="0" y="0" width="1000" height="1000" fill="#333" stroke="none" />
-  <g fill="none" stroke-width="40" stroke="#F6F4F2" stroke-linecap="square" transform="translate(100 400) scale(0.8)">
-    <path d="M30 20h130c9.996 0 10 40 10 60v140H41c-11.004 0-11-40-11-60s-.004-60 10-60h110"/>
-    <path d="M850 140h110c10 0 10-40 10-60s0-60-10-60H840c-10 0-10 40-10 60v80c0 20 0 60 10 60h130"/>
-    <path d="M430 100v120"/>
-    <path d="M430 20.2v.6"/>
-    <path d="M370 220V80c0-20 0-60-10-60H240c-10 0-10 40-10 60v140"/>
-    <path d="M770 220V80c0-20 0-60-10-60H500c-10 0-10 40-10 60v140"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path fill="#333" d="M0 0h1000v1000H0z"/><path fill="none" stroke="#f6f4f2" stroke-linecap="square" stroke-width="32" d="M124 416h104c7.997 0 8 32 8 48v112H132.8c-8.803 0-8.8-32-8.8-48s-.003-48 8-48h88m560 32h88c8 0 8-32 8-48s0-48-8-48h-96c-8 0-8 32-8 48v64c0 16 0 48 8 48h104m-432-96v96m0-159.84v.48M396 576V464c0-16 0-48-8-48h-96c-8 0-8 32-8 48v112m432 0V464c0-16 0-48-8-48H500c-8 0-8 32-8 48v112"/></svg>
