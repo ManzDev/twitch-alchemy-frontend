@@ -5,12 +5,14 @@
 
 .container {
   font-family: "DSEG7 Classic Mini", monospace;
-  font-size: 72px;
+  font-size: clamp(44px, 12vw, 72px);
   color: white;
   margin-top: 0.5em;
   display: flex;
   background: #000;
   padding: 0.4em;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .elements-container {
@@ -44,4 +46,14 @@
 span {
   display: block;
   padding: 0 20px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.3em;
+  }
+
+  span {
+    padding: 0 10px;
+  }
 }

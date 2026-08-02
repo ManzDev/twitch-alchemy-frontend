@@ -30,7 +30,6 @@
     const keys = Object.keys(elements);
     const allCards = [...new Set(Object.entries(elements).flat(Infinity))];
     const notCrafteable = allElementsFromImages.filter(key => !keys.includes(key));
-    console.log({ notCrafteable, allCards });
 
     const remainingCards = notCrafteable.map(name => {
       return /* html */`<div class="row"><card-element type="${name}"></card-element></div>`;

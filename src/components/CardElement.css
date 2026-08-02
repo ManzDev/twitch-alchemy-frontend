@@ -11,7 +11,7 @@
   align-items: center;
   cursor: grab;
   margin: 0.5em;
-  padding: 10px;
+  padding: 6px;
   font-family: Montserrat, sans-serif;
   font-variation-settings: "wght" 700;
   color: #444;
@@ -119,5 +119,12 @@ span {
 }
 
 img {
-  max-width: 80%;
+  max-width: 90%;
+}
+
+@media (max-width: 560px) {
+  :host {
+    margin: 0.35em;
+    border-width: 3px;
+  }
 }

@@ -33,3 +33,13 @@ body {
 card-element {
   --size: 110px;
 }
+
+@media (max-width: 560px) {
+  .container {
+    margin: 1.5em;
+  }
+
+  card-element {
+    --size: 84px;
+  }
+}
