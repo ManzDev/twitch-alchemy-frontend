@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.9 813"><style type="text/css">.st0{opacity:0.45;enable-background:new;}.st1{opacity:0.6;enable-background:new;}.st2{opacity:0.8;enable-background:new;}</style><path class="st0" d="M391.9 0l-130.7 232.3H0L130.6 0 391.9 0"/><path class="st1" d="M261.2 232.3h261.3L391.9 0h-261.3L261.2 232.3z"/><path class="st2" d="M130.6 464.5l130.6-232.2L130.6 0 0 232.3 130.6 464.5z"/><path class="st0" d="M131.9 813l130.7-232.3h261.3L393.2 813H131.9"/><path class="st1" d="M262.6 580.7h-261.3L131.9 813H393.2L262.6 580.7z"/><path class="st2" d="M393.2 348.5l-130.6 232.2L393.2 813l130.7-232.3L393.2 348.5z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="svg6" width="815" height="815" viewBox="0 0 815 815">
+  <path id="path1" d="M507.22 94.657 405.45 275.536H202.07L303.76 94.657Z"
+    style="opacity:.45;stroke-width:.778642" />
+  <path id="path2" d="M405.451 275.536h203.46L507.22 94.657H303.76Z"
+    style="opacity:.6;stroke-width:.778642" />
+  <path id="path3" d="m303.76 456.337 101.691-180.801-101.69-180.879L202.07 275.536Z"
+    style="opacity:.8;stroke-width:.778642" />
+  <path id="path4" d="m304.773 727.694 101.768-180.88h203.46l-101.769 180.88Z"
+    style="opacity:.45;stroke-width:.778642" />
+  <path id="path5" d="M406.541 546.815H203.082l101.69 180.879h203.46z"
+    style="opacity:.6;stroke-width:.778642" />
+  <path id="path6" d="m508.232 366.014-101.69 180.8 101.69 180.88 101.769-180.88Z"
+    style="opacity:.8;stroke-width:.778642" />
+</svg>
